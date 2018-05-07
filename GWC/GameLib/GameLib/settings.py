@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'south',
 ]
 
 MIDDLEWARE = [
@@ -75,8 +76,12 @@ WSGI_APPLICATION = 'GameLib.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ouvnaciy',
+        'HOST' : 'nutty-custard-apple.db.elephantsql.com',
+        'USER' : 'ouvnaciy',
+        'PASSWORD' : 'yxgBDDCNmwZg7GXY2fMImiuS_t--zXDM',
+        'PORT' : '5432',
     }
 }
 

@@ -1,4 +1,4 @@
-#!/mnt/c/Users/Paul/Documents/DjangoWorkspace/Dev/venv/env/bin/python3
+#!/mnt/c/Users/Paul/Documents/DjangoWorkspace/Dev/venv/env/bin/python3.6
 from django.core import management
 
 if __name__ == "__main__":

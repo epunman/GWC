@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from Collections.views import home, person, boardgame, collection
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', home),
+    url(r'^person/$', person),
+    url(r'^boardgame/$', boardgame),
+    url(r'^collection$', collection),
 ]

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block head_title %}Boardgame List || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>Boardgame List</h1>
+
+<ul>
+{% for obj in object_list %}
+	<li>{{ obj }} {{obj.CreatedTime}} {{obj.ModifiedTime}}</li>
+{% endfor %}
+</ul>
+{% endblock content %}

@@ -75,10 +75,10 @@ class CollectionListView(ListView):
 		slug = self.kwargs.get("slug")
 		if slug:
 			queryset = Collection.objects.filter(
-					Q(Person__iexact=slug) |
-					Q(Person__icontains=slug) |
-					Q(Boardgame__iexact=slug) |
-					Q(Boardgame__icontains=slug) |
+					Q(Person__LastName__iexact=slug) |
+					Q(Person__LastName__icontains=slug) |
+					Q(Boardgame__Name__iexact=slug) |
+					Q(Boardgame__Name__icontains=slug) |
 					Q(RFIDTag__iexact=slug) |
 					Q(RFIDTag__icontains=slug)
 				)

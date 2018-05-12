@@ -20,6 +20,8 @@ from Collections.views import (
     PersonListView,
     BoardgameListView,
     CollectionListView,
+    PersonDetailView,
+    person_createview,
 )
 
 urlpatterns = [
@@ -27,6 +29,8 @@ urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='home.html')),
     url(r'^person/$', PersonListView.as_view()),
     url(r'^person/(?P<slug>\w+)$', PersonListView.as_view()),
+    url(r'^persondetail/(?P<pk>\w+)$', PersonDetailView.as_view()),
+    url(r'^personadd/$', person_createview),
     url(r'^boardgame/$', BoardgameListView.as_view()),
     url(r'^boardgame/(?P<slug>\w+)$', BoardgameListView.as_view()),
     url(r'^collection/$', CollectionListView.as_view()),

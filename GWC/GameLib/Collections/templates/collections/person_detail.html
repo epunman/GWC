@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block head_title %}Person Detail || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>{{ object }}</h1>
+<p>{{ object.BadgeNumber}}</p>
+<p>{{ object.EmailAddress}}</p>
+<p>{{ object.Phone}}</p>
+<p>{{ object.Address}}</p>
+<p>{{ object.City}}</p>
+<p>{{ object.State}}</p>
+<p>{{ object.Zip}}</p>
+<p>{{ object.ReceiveNewsletter}}</p>
+<p>{{ object.NewsletterFrequencyCode}}</p>
+<p><small>Added {{ object.CreatedTime}}, last updated {{ object.ModifiedTime|timesince }} ago</small></p>
+
+{% endblock content %}

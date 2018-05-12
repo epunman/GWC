@@ -1,20 +1,35 @@
 from django.db.models import Q
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
-from django.views.generic import TemplateView, ListView
+from django.views.generic import TemplateView, ListView, DetailView
 from .models import Person, Boardgame, Collection
-# Create your views here.
-#function based view
+from .forms import PersonCreateForm
 
-# def person(request):	
-# 	return render(request, "person.html", {})
 
-# def boardgame(request):	
-# 	return render(request, "boardgame.html", {})
-
-# def collection(request):	
-# 	return render(request, "collection.html", {})
+def person_createview(request):
+	if request.method == "POST":
+		form = PersonCreateForm(request.POST)
+		if form.is_valid():
+			obj = Person.objects.create(
+				FirstName = form.cleaned_data.get('FirstName'),
+				LastName = form.cleaned_data.get('LastName'),
+				Suffix = form.cleaned_data.get('Suffix'),
+				BadgeNumber = form.cleaned_data.get('BadgeNumber'),
+				EmailAddress = form.cleaned_data.get('EmailAddress'),
+				Phone = form.cleaned_data.get('Phone'),
+				Address = form.cleaned_data.get('Address'),
+				City = form.cleaned_data.get('City'),
+				State = form.cleaned_data.get('State'),
+				Zip = form.cleaned_data.get('Zip'),
+				ReceiveNewsletter = form.cleaned_data.get('ReceiveNewsletter'),
+				NewsletterFrequencyCode = form.cleaned_data.get('NewsletterFrequencyCode'),
+				IsBusiness = form.cleaned_data.get('IsBusiness'),
+			)
+		return HttpResponseRedirect("/person/")
+		template_name = 'collections/person_form.html'
+		context = {}
+		return render(request, template_name, context)
 
 def person_listview(request):
 	template_name = 'collections/person_list.html'
@@ -32,11 +47,22 @@ class PersonListView(ListView):
 		if slug:
 			queryset = Person.objects.filter(
 					Q(LastName__iexact=slug) |
-					Q(LastName__icontains=slug)
+					Q(LastName__icontains=slug) |
+					Q(FirstName__iexact=slug) |
+					Q(FirstName__icontains=slug)
 				)
 		else:
 			queryset = Person.objects.all()
 		return queryset
+
+
+class PersonDetailView(DetailView):
+	queryset = Person.objects.all()
+	template_name = 'collections/person_detail.html'
+	def get_context_data(self, *args, **kwargs):
+		context = super(PersonDetailView, self).get_context_data(*args, **kwargs)
+		return context
+
 
 def boardgame_listview(request):
 	template_name = 'collections/boardgame_list.html'

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block head_title %}Add Person || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>Add Person</h1>
+
+<form method='POST'> {% csrf_token %}
+	<input type='text' FirstName='FirstName' placeholder="First Name"><br/>
+	<input type='text' LastName='LastName' placeholder="Last Name"><br/>
+	<input type='text' Suffix='Suffix' placeholder="Suffix (if any)"><br/>
+	<input type='text' BadgeNumber='BadgeNumber' placeholder="BadgeNumber"><br/>
+	<input type='text' EmailAddress='EmailAddress' placeholder="Email Address"><br/>
+	<input type='text' Phone='Phone' placeholder="Phone"><br/>
+	<input type='text' Address='Address' placeholder="Address"><br/>
+	<input type='text' City='City' placeholder="City"><br/>
+	<input type='text' State='State' placeholder="State"><br/>
+	<input type='text' Zip='Zip' placeholder="Zip"><br/>
+	<input type='checkbox' ReceiveNewsletter='ReceiveNewsletter' placeholder="ReceiveNewsletter"><br/>
+	<input type='text' NewsletterFrequencyCode='NewsletterFrequencyCode' placeholder="NewsletterFrequencyCode"><br/>
+	<input type='checkbox' IsBusiness='IsBusiness' placeholder="IsBusiness"><br/>
+</form>
+
+{% endblock content %}

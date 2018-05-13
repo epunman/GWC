@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block head_title %}Add Collection || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>Add Collection</h1>
+
+{% if form.errors %}
+{{ form.errors }}
+{% endif %}
+
+<form method='POST'> {% csrf_token %}
+	{{ form.as_p }}
+	<button type = 'submit'>Save</button>
+</form>
+
+{% endblock content %}

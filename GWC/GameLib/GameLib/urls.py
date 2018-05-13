@@ -18,10 +18,14 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from Collections.views import (
     PersonListView,
-    BoardgameListView,
-    CollectionListView,
     PersonDetailView,
-    PersonCreateView,
+    PersonCreateView,    
+    BoardgameListView,
+    BoardgameDetailView,
+    BoardgameCreateView,
+    CollectionListView,
+    CollectionDetailView,
+    CollectionCreateView,
 )
 
 urlpatterns = [
@@ -33,6 +37,10 @@ urlpatterns = [
     url(r'^personadd/$', PersonCreateView.as_view()),
     url(r'^boardgame/$', BoardgameListView.as_view()),
     url(r'^boardgame/(?P<slug>\w+)$', BoardgameListView.as_view()),
+    url(r'^boardgamedetail/(?P<pk>\w+)$', BoardgameDetailView.as_view()),
+    url(r'^boardgameadd/$', BoardgameCreateView.as_view()),
     url(r'^collection/$', CollectionListView.as_view()),
     url(r'^collection/(?P<slug>\w+)$', CollectionListView.as_view()),
+    url(r'^collectiondetail/(?P<pk>\w+)$', CollectionDetailView.as_view()),
+    url(r'^collectionadd/$', CollectionCreateView.as_view()),
 ]

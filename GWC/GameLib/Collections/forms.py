@@ -22,8 +22,29 @@ class PersonCreateForm(forms.ModelForm):
 		]
 
 
-	def clean_FirstName(self):
-		FirstName = self.cleaned_data.get("FirstName")
-		if FirstName == "Hello":
-			raise forms.ValidationError("Not a valid name")
-		return FirstName
+	# def clean_FirstName(self):
+	# 	FirstName = self.cleaned_data.get("FirstName")
+	# 	if FirstName == "Hello":
+	# 		raise forms.ValidationError("Not a valid name")
+	# 	return FirstName
+
+class BoardgameCreateForm(forms.ModelForm):
+	class Meta:
+		model = Boardgame
+		fields = [
+			'BGGRef',
+			'Name',
+			'UPC',
+		]
+
+
+class CollectionCreateForm(forms.ModelForm):
+	class Meta:
+		model = Collection
+		fields = [
+			'Person',
+			'Boardgame',
+			'RFIDTag',
+			'PreWeight',
+			'RegisteredPersonalGame',
+		]

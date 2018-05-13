@@ -4,21 +4,7 @@ from django.shortcuts import render
 from django.views import View
 from django.views.generic import TemplateView, ListView, DetailView, CreateView
 from .models import Person, Boardgame, Collection
-from .forms import PersonCreateForm
-
-
-# def person_createview(request):
-# 	form = PersonCreateForm(request.POST or None)
-# 	errors = None
-# 	if form.is_valid():
-# 		form.save()
-# 		return HttpResponseRedirect("/person")
-# 	if form.errors:
-# 		errors = form.errors
-
-# 	template_name = 'collections/person_form.html'
-# 	context = {"form": form, "errors": errors}
-# 	return render(request, template_name, context)
+from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm
 
 def person_listview(request):
 	template_name = 'collections/person_list.html'
@@ -43,7 +29,6 @@ class PersonListView(ListView):
 		else:
 			queryset = Person.objects.all()
 		return queryset
-
 
 class PersonDetailView(DetailView):
 	queryset = Person.objects.all()
@@ -79,6 +64,18 @@ class BoardgameListView(ListView):
 			queryset = Boardgame.objects.all()
 		return queryset
 
+class BoardgameDetailView(DetailView):
+	queryset = Boardgame.objects.all()
+	template_name = 'collections/boardgame_detail.html'
+	def get_context_data(self, *args, **kwargs):
+		context = super(BoardgameDetailView, self).get_context_data(*args, **kwargs)
+		return context
+
+class BoardgameCreateView(CreateView):
+	form_class = BoardgameCreateForm
+	template_name = 'collections/boardgame_form.html'
+	success_url = '/boardgame'
+
 def collection_listview(request):
 	template_name = 'collections/collection_list.html'
 	queryset = Collection.objects.all()
@@ -104,3 +101,15 @@ class CollectionListView(ListView):
 		else:
 			queryset = Collection.objects.all()
 		return queryset
+
+class CollectionDetailView(DetailView):
+	queryset = Collection.objects.all()
+	template_name = 'collections/collection_detail.html'
+	def get_context_data(self, *args, **kwargs):
+		context = super(CollectionDetailView, self).get_context_data(*args, **kwargs)
+		return context
+
+class CollectionCreateView(CreateView):
+	form_class = CollectionCreateForm
+	template_name = 'collections/collection_form.html'
+	success_url = '/collection'

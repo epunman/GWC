@@ -1,16 +1,29 @@
 from django import forms
 
-class PersonCreateForm(forms.Form):
-	FirstName = forms.CharField()
-	LastName = forms.CharField()
-	Suffix = forms.CharField()
-	BadgeNumber = forms.CharField()
-	EmailAddress = forms.EmailField()
-	Phone = forms.CharField()
-	Address = forms.CharField()
-	City = forms.CharField()
-	State = forms.CharField()
-	Zip = forms.CharField()
-	ReceiveNewsletter = forms.BooleanField()
-	NewsletterFrequencyCode = forms.CharField()
-	IsBusiness = forms.BooleanField()
+from .models import Person, Boardgame, Collection
+
+class PersonCreateForm(forms.ModelForm):
+	class Meta:
+		model = Person
+		fields = [
+			'FirstName',
+			'LastName',
+			'Suffix',
+			'BadgeNumber',
+			'EmailAddress',
+			'Phone',
+			'Address',
+			'City',
+			'State',
+			'Zip',
+			'ReceiveNewsletter',
+			'NewsletterFrequencyCode',
+			'IsBusiness',
+		]
+
+
+	def clean_FirstName(self):
+		FirstName = self.cleaned_data.get("FirstName")
+		if FirstName == "Hello":
+			raise forms.ValidationError("Not a valid name")
+		return FirstName

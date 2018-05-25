@@ -1,6 +1,6 @@
 from django import forms
 
-from .models import Person, Boardgame, Collection
+from .models import Person, Boardgame, Collection, Checkout
 
 class PersonCreateForm(forms.ModelForm):
 	class Meta:
@@ -47,4 +47,18 @@ class CollectionCreateForm(forms.ModelForm):
 			'RFIDTag',
 			'PreWeight',
 			'RegisteredPersonalGame',
+			'AvailableAtEvent',
 		]
+
+class CheckoutCreateForm(forms.ModelForm):
+	class Meta:
+		model = Checkout
+		fields = [
+			'BoardgameFromCollection',
+			'Attendee',
+			'CheckedOutTime',
+			'CheckedInTime',
+			'PreConditionNote',
+			'PostConditionNote',
+			'PostWeight',
+		]		

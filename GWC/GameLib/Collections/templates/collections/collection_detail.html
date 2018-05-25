@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% extends "base.html" %}
 
 {% block head_title %}Collection Detail || {{ block.super }}{% endblock head_title %}
 
@@ -9,6 +10,7 @@
 <p>{{ object.RFIDTag}}</p>
 <p>{{ object.PreWeight}}</p>
 <p>{{ object.RegisteredPersonalGame}}</p>
+<p>{{ object.AvailableAtEvent}}</p>
 <p><small>Added {{ object.CreatedTime}}, last updated {{ object.ModifiedTime|timesince }} ago</small></p>
 
 {% endblock content %}

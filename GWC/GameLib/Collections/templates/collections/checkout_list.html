@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block head_title %}Checkout List || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>Checkout List</h1>
+
+<ul>
+{% for obj in object_list %}
+	<li><a href="/checkoutdetail/{{ obj.pk }}">{{ obj }}</a></li>
+	<!-- <li><a href="/checkoutdetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CheckedOutTime}} {{obj.CheckedInTime}}</li> -->
+{% endfor %}
+</ul>
+{% endblock content %}

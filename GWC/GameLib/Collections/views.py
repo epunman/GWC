@@ -3,8 +3,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
 from django.views.generic import TemplateView, ListView, DetailView, CreateView
-from .models import Person, Boardgame, Collection
-from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm
+from .models import Person, Boardgame, Collection, Checkout
+from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm, CheckoutCreateForm
 
 def person_listview(request):
 	template_name = 'collections/person_list.html'
@@ -76,6 +76,9 @@ class BoardgameCreateView(CreateView):
 	template_name = 'collections/boardgame_form.html'
 	success_url = '/boardgame'
 
+
+
+
 def collection_listview(request):
 	template_name = 'collections/collection_list.html'
 	queryset = Collection.objects.all()
@@ -94,9 +97,7 @@ class CollectionListView(ListView):
 					Q(Person__LastName__iexact=slug) |
 					Q(Person__LastName__icontains=slug) |
 					Q(Boardgame__Name__iexact=slug) |
-					Q(Boardgame__Name__icontains=slug) |
-					Q(RFIDTag__iexact=slug) |
-					Q(RFIDTag__icontains=slug)
+					Q(Boardgame__Name__icontains=slug)
 				)
 		else:
 			queryset = Collection.objects.all()
@@ -113,3 +114,43 @@ class CollectionCreateView(CreateView):
 	form_class = CollectionCreateForm
 	template_name = 'collections/collection_form.html'
 	success_url = '/collection'
+
+
+
+
+def checkout_listview(request):
+	template_name = 'collections/checkout_list.html'
+	queryset = Checkout.objects.all()
+	context = {
+		"object_list": queryset
+	}
+	return render(request, template_name, context)
+
+class CheckoutListView(ListView):
+	template_name = 'collections/checkout_list.html'
+
+	def get_queryset(self):
+		slug = self.kwargs.get("slug")
+		if slug:
+			queryset = Checkout.objects.filter(
+					Q(Attendee__LastName__iexact=slug) |
+					Q(Attendee__LastName__icontains=slug) |
+					Q(BoardgameFromCollection__Name__iexact=slug) |
+					Q(BoardgameFromCollection__Name__icontains=slug) |
+					Q(BoardgameFromCollection__id__iexact=slug)
+				)
+		else:
+			queryset = Checkout.objects.all()
+		return queryset
+
+class CheckoutDetailView(DetailView):
+	queryset = Checkout.objects.all()
+	template_name = 'collections/checkout_detail.html'
+	def get_context_data(self, *args, **kwargs):
+		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
+		return context
+
+class CheckoutCreateView(CreateView):
+	form_class = CheckoutCreateForm
+	template_name = 'collections/checkout_form.html'
+	success_url = '/checkout'

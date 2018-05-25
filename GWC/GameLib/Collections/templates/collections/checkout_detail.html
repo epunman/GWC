@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block head_title %}Checkout Detail || {{ block.super }}{% endblock head_title %}
+
+{% block content %}
+<h1>{{ object }}</h1>
+<p>{{ object.BoardgameFromCollection}}</p>
+<p>{{ object.Attendee}}</p>
+<p>{{ object.PreConditionNote}}</p>
+<p>{{ object.PostConditionNote}}</p>
+<p>{{ object.PostWeight}}</p>
+<p><small>Checked out {{ object.CheckedOutTime}}, {{ object.CheckedOutTime|timesince }} ago</small></p>
+<p><small>Checked in {{ object.CheckedInTime }}</small></p>
+
+{% endblock content %}

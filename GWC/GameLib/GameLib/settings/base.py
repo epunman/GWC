@@ -54,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'GameLib.urls'
+LOGIN_URL = '/login/'
 
 TEMPLATES = [
     {

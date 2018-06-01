@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
@@ -14,7 +15,7 @@ def person_listview(request):
 	}
 	return render(request, template_name, context)
 
-class PersonListView(ListView):
+class PersonListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/person_list.html'
 
 	def get_queryset(self):
@@ -30,17 +31,24 @@ class PersonListView(ListView):
 			queryset = Person.objects.all()
 		return queryset
 
-class PersonDetailView(DetailView):
+class PersonDetailView(LoginRequiredMixin, DetailView):
 	queryset = Person.objects.all()
 	template_name = 'collections/person_detail.html'
 	def get_context_data(self, *args, **kwargs):
 		context = super(PersonDetailView, self).get_context_data(*args, **kwargs)
 		return context
 
-class PersonCreateView(CreateView):
+class PersonCreateView(LoginRequiredMixin, CreateView):
 	form_class = PersonCreateForm
 	template_name = 'collections/person_form.html'
 	success_url = '/person'
+
+	def form_valid(self, form):
+		instance = form.save(commit=False)
+		instance.AuthUser = self.request.user
+		#instance.save()
+		return super(PersonCreateView, self).form_valid(form)
+
 
 def boardgame_listview(request):
 	template_name = 'collections/boardgame_list.html'
@@ -50,7 +58,7 @@ def boardgame_listview(request):
 	}
 	return render(request, template_name, context)
 
-class BoardgameListView(ListView):
+class BoardgameListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/boardgame_list.html'
 
 	def get_queryset(self):
@@ -64,14 +72,14 @@ class BoardgameListView(ListView):
 			queryset = Boardgame.objects.all()
 		return queryset
 
-class BoardgameDetailView(DetailView):
+class BoardgameDetailView(LoginRequiredMixin, DetailView):
 	queryset = Boardgame.objects.all()
 	template_name = 'collections/boardgame_detail.html'
 	def get_context_data(self, *args, **kwargs):
 		context = super(BoardgameDetailView, self).get_context_data(*args, **kwargs)
 		return context
 
-class BoardgameCreateView(CreateView):
+class BoardgameCreateView(LoginRequiredMixin, CreateView):
 	form_class = BoardgameCreateForm
 	template_name = 'collections/boardgame_form.html'
 	success_url = '/boardgame'
@@ -87,7 +95,7 @@ def collection_listview(request):
 	}
 	return render(request, template_name, context)
 
-class CollectionListView(ListView):
+class CollectionListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/collection_list.html'
 
 	def get_queryset(self):
@@ -103,14 +111,14 @@ class CollectionListView(ListView):
 			queryset = Collection.objects.all()
 		return queryset
 
-class CollectionDetailView(DetailView):
+class CollectionDetailView(LoginRequiredMixin, DetailView):
 	queryset = Collection.objects.all()
 	template_name = 'collections/collection_detail.html'
 	def get_context_data(self, *args, **kwargs):
 		context = super(CollectionDetailView, self).get_context_data(*args, **kwargs)
 		return context
 
-class CollectionCreateView(CreateView):
+class CollectionCreateView(LoginRequiredMixin, CreateView):
 	form_class = CollectionCreateForm
 	template_name = 'collections/collection_form.html'
 	success_url = '/collection'
@@ -126,7 +134,7 @@ def checkout_listview(request):
 	}
 	return render(request, template_name, context)
 
-class CheckoutListView(ListView):
+class CheckoutListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/checkout_list.html'
 
 	def get_queryset(self):
@@ -143,14 +151,14 @@ class CheckoutListView(ListView):
 			queryset = Checkout.objects.all()
 		return queryset
 
-class CheckoutDetailView(DetailView):
+class CheckoutDetailView(LoginRequiredMixin, DetailView):
 	queryset = Checkout.objects.all()
 	template_name = 'collections/checkout_detail.html'
 	def get_context_data(self, *args, **kwargs):
 		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
 		return context
 
-class CheckoutCreateView(CreateView):
+class CheckoutCreateView(LoginRequiredMixin, CreateView):
 	form_class = CheckoutCreateForm
 	template_name = 'collections/checkout_form.html'
 	success_url = '/checkout'

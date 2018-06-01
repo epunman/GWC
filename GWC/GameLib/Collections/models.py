@@ -1,7 +1,8 @@
+from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
-# Create your models here.
+User = settings.AUTH_USER_MODEL
 
 class Person(models.Model):
 	CreatedTime = models.DateTimeField(auto_now_add=True)
@@ -19,6 +20,7 @@ class Person(models.Model):
 	EmailAddress = models.EmailField(null=True, blank=True)
 	ReceiveNewsletter = models.BooleanField(default=False)
 	NewsletterFrequencyCode = models.CharField(max_length = 1, null=True, blank=True)
+	AuthUser = models.ForeignKey(User, null=True, blank=True)
 
 	def __str__(self):
 		return "%s, %s" % (self.LastName, self.FirstName)
@@ -55,6 +57,7 @@ class Checkout(models.Model):
 	PreConditionNote = models.CharField(max_length = 500, null=True, blank=True)
 	PostConditionNote = models.CharField(max_length = 500, null=True, blank=True)
 	PostWeight = models.DecimalField(decimal_places=6, max_digits=8, null=True, blank=True)
+	CheckedOutBy = models.ForeignKey(User)
 
 	def __str__(self):
 		return "%s, %s: %s Checked Out: %s Checked In: %s" % (self.Attendee.LastName, self.Attendee.FirstName, self.BoardgameFromCollection.Boardgame.Name, self.CheckedOutTime, self.CheckedInTime)

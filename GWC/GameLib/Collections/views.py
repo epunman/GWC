@@ -3,17 +3,9 @@ from django.db.models import Q
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.views import View
-from django.views.generic import TemplateView, ListView, DetailView, CreateView
+from django.views.generic import TemplateView, ListView, DetailView, CreateView, UpdateView
 from .models import Person, Boardgame, Collection, Checkout
 from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm, CheckoutCreateForm
-
-def person_listview(request):
-	template_name = 'collections/person_list.html'
-	queryset = Person.objects.all()
-	context = {
-		"object_list": queryset
-	}
-	return render(request, template_name, context)
 
 class PersonListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/person_list.html'
@@ -31,9 +23,12 @@ class PersonListView(LoginRequiredMixin, ListView):
 			queryset = Person.objects.all()
 		return queryset
 
-class PersonDetailView(LoginRequiredMixin, DetailView):
+class PersonDetailView(LoginRequiredMixin, UpdateView):
+	form_class = PersonCreateForm
 	queryset = Person.objects.all()
-	template_name = 'collections/person_detail.html'
+	template_name = 'collections/person_form.html'
+	success_url = '/person'
+
 	def get_context_data(self, *args, **kwargs):
 		context = super(PersonDetailView, self).get_context_data(*args, **kwargs)
 		return context
@@ -49,15 +44,6 @@ class PersonCreateView(LoginRequiredMixin, CreateView):
 		#instance.save()
 		return super(PersonCreateView, self).form_valid(form)
 
-
-def boardgame_listview(request):
-	template_name = 'collections/boardgame_list.html'
-	queryset = Boardgame.objects.all()
-	context = {
-		"object_list": queryset
-	}
-	return render(request, template_name, context)
-
 class BoardgameListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/boardgame_list.html'
 
@@ -72,9 +58,12 @@ class BoardgameListView(LoginRequiredMixin, ListView):
 			queryset = Boardgame.objects.all()
 		return queryset
 
-class BoardgameDetailView(LoginRequiredMixin, DetailView):
+class BoardgameDetailView(LoginRequiredMixin, UpdateView):
+	form_class = BoardgameCreateForm
 	queryset = Boardgame.objects.all()
-	template_name = 'collections/boardgame_detail.html'
+	template_name = 'collections/boardgame_form.html'
+	success_url = '/boardgame'
+
 	def get_context_data(self, *args, **kwargs):
 		context = super(BoardgameDetailView, self).get_context_data(*args, **kwargs)
 		return context
@@ -84,16 +73,6 @@ class BoardgameCreateView(LoginRequiredMixin, CreateView):
 	template_name = 'collections/boardgame_form.html'
 	success_url = '/boardgame'
 
-
-
-
-def collection_listview(request):
-	template_name = 'collections/collection_list.html'
-	queryset = Collection.objects.all()
-	context = {
-		"object_list": queryset
-	}
-	return render(request, template_name, context)
 
 class CollectionListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/collection_list.html'
@@ -111,9 +90,12 @@ class CollectionListView(LoginRequiredMixin, ListView):
 			queryset = Collection.objects.all()
 		return queryset
 
-class CollectionDetailView(LoginRequiredMixin, DetailView):
+class CollectionDetailView(LoginRequiredMixin, UpdateView):
+	form_class = CollectionCreateForm
 	queryset = Collection.objects.all()
-	template_name = 'collections/collection_detail.html'
+	template_name = 'collections/collection_form.html'
+	success_url = '/collection'
+
 	def get_context_data(self, *args, **kwargs):
 		context = super(CollectionDetailView, self).get_context_data(*args, **kwargs)
 		return context
@@ -123,16 +105,6 @@ class CollectionCreateView(LoginRequiredMixin, CreateView):
 	template_name = 'collections/collection_form.html'
 	success_url = '/collection'
 
-
-
-
-def checkout_listview(request):
-	template_name = 'collections/checkout_list.html'
-	queryset = Checkout.objects.all()
-	context = {
-		"object_list": queryset
-	}
-	return render(request, template_name, context)
 
 class CheckoutListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/checkout_list.html'

@@ -17,12 +17,13 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.views.generic import TemplateView
 
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, LogoutView
 
 from Collections.views import (
     PersonListView,
     PersonDetailView,
-    PersonCreateView,    
+    PersonCreateView,
+    #PersonUpdateView,
     BoardgameListView,
     BoardgameDetailView,
     BoardgameCreateView,
@@ -32,15 +33,18 @@ from Collections.views import (
     CheckoutListView,
     CheckoutDetailView,
     CheckoutCreateView,
+
 )
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name='home.html')),
     url(r'^login/$', LoginView.as_view(), name='login'),
+    url(r'^logout/$', LogoutView.as_view(), name='logout'),
     url(r'^person/$', PersonListView.as_view()),
     url(r'^person/(?P<slug>\w+)$', PersonListView.as_view()),
     url(r'^persondetail/(?P<pk>\w+)$', PersonDetailView.as_view()),
+    #url(r'^personedit/(?P<slug>\w+)$', PersonUpdateView.as_view()),
     url(r'^personadd/$', PersonCreateView.as_view()),
     url(r'^boardgame/$', BoardgameListView.as_view()),
     url(r'^boardgame/(?P<slug>\w+)$', BoardgameListView.as_view()),

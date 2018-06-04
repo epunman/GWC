@@ -7,7 +7,8 @@
 
     <title>{% block head_title %}Game Library Links{% endblock head_title %}</title>
     {% include 'snippets/css.html' %}
-	<h1>Game Library Links</h1>
+
+	<h1>Game Library Links {% if not request.user.is_authenticated %}<small><a href="\login">Log In</a></small>{% else %}<small><a href="\logout">Logout</a></small>{% endif %}</h1>
   </head>
 
 <body>

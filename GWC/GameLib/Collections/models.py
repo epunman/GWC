@@ -46,7 +46,7 @@ class Collection(models.Model):
 	AvailableAtEvent = models.BooleanField(default=False) #Temporary until event specific collections are added
 
 	def __str__(self):
-		return "%s, %s: %s" % (self.Person.LastName, self.Person.FirstName, self.Boardgame.Name)
+		return "%s: %s" % (self.Person, self.Boardgame.Name)
 
 class Checkout(models.Model):
 	CheckedOutTime = models.DateTimeField(default=timezone.now)

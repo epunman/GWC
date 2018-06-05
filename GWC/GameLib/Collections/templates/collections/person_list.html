@@ -5,9 +5,32 @@
 {% block content %}
 <h1>Person List&nbsp&nbsp&nbsp&nbsp<small><a href="/personadd">Add</a></small></h1>
 
-<ul>
-{% for obj in object_list %}
-	<li><a href="/persondetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</li>
-{% endfor %}
-</ul>
+{% if object_list %}
+    <table id="person">
+        {% for obj in object_list %}
+            <tr>
+                <td><a href="/persondetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {# .... **Now the pagination section** .... #}
+    {% if is_paginated %}
+        <div class="pagination">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="/person?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="/person?page={{ page_obj.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+{% else %}
+    <p>Add items</p>
+{% endif %}
+
 {% endblock content %}

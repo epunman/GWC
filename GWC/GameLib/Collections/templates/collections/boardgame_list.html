@@ -5,9 +5,32 @@
 {% block content %}
 <h1>Boardgame List&nbsp&nbsp&nbsp&nbsp<small><a href="/boardgameadd">Add</a></small></h1>
 
-<ul>
-{% for obj in object_list %}
-	<li><a href="/boardgamedetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</li>
-{% endfor %}
-</ul>
+{% if object_list %}
+    <table id="boardgame">
+        {% for obj in object_list %}
+            <tr>
+                <td><a href="/boardgamedetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {# .... **Now the pagination section** .... #}
+    {% if is_paginated %}
+        <div class="pagination">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="/boardgame?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="/boardgame?page={{ page_obj.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
+    {% endif %}
+{% else %}
+    <p>Add items</p>
+{% endif %}
+
 {% endblock content %}

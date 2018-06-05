@@ -32,8 +32,8 @@ class BoardgameCreateForm(forms.ModelForm):
 	class Meta:
 		model = Boardgame
 		fields = [
-			'BGGRef',
 			'Name',
+			'BGGRef',
 			'UPC',
 		]
 
@@ -61,4 +61,4 @@ class CheckoutCreateForm(forms.ModelForm):
 			'PreConditionNote',
 			'PostConditionNote',
 			'PostWeight',
-		]		
+		]

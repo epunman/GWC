@@ -9,6 +9,7 @@ from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm, 
 
 class PersonListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/person_list.html'
+	paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
@@ -46,6 +47,7 @@ class PersonCreateView(LoginRequiredMixin, CreateView):
 
 class BoardgameListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/boardgame_list.html'
+	paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
@@ -76,12 +78,13 @@ class BoardgameCreateView(LoginRequiredMixin, CreateView):
 
 class CollectionListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/collection_list.html'
+	paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
 		if slug:
 			queryset = Collection.objects.filter(
-					Q(Person__LastName__iexact=slug) |
+				 	Q(Person__LastName__iexact=slug) |
 					Q(Person__LastName__icontains=slug) |
 					Q(Boardgame__Name__iexact=slug) |
 					Q(Boardgame__Name__icontains=slug)
@@ -108,6 +111,7 @@ class CollectionCreateView(LoginRequiredMixin, CreateView):
 
 class CheckoutListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/checkout_list.html'
+	paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")

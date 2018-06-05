@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '9ec02c51.ngrok.io',
     '127.0.0.1',
+    'epunman.pythonanywhere.com',
 ]
 
 

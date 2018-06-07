@@ -1,9 +1,9 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
-from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render
-from django.views import View
-from django.views.generic import TemplateView, ListView, DetailView, CreateView, UpdateView
+# from django.http import HttpResponse, HttpResponseRedirect
+# from django.shortcuts import render
+# from django.views import View
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from .models import Person, Boardgame, Collection, Checkout
 from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm, CheckoutCreateForm
 
@@ -114,25 +114,15 @@ class CheckoutListView(LoginRequiredMixin, ListView):
 	paginate_by = 30
 
 	def get_queryset(self):
-		slug = self.kwargs.get("slug")
-		if slug:
-			queryset = Checkout.objects.filter(
-					Q(Attendee__LastName__iexact=slug) |
-					Q(Attendee__LastName__icontains=slug) |
-					Q(BoardgameFromCollection__Name__iexact=slug) |
-					Q(BoardgameFromCollection__Name__icontains=slug) |
-					Q(BoardgameFromCollection__id__iexact=slug)
-				)
-		else:
-			queryset = Checkout.objects.all()
+		queryset = Checkout.objects.all()
 		return queryset
 
-class CheckoutDetailView(LoginRequiredMixin, DetailView):
-	queryset = Checkout.objects.all()
-	template_name = 'collections/checkout_detail.html'
-	def get_context_data(self, *args, **kwargs):
-		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
-		return context
+# class CheckoutDetailView(LoginRequiredMixin, DetailView):
+# 	queryset = Checkout.objects.all()
+# 	template_name = 'collections/checkout_form.html'
+# 	def get_context_data(self, *args, **kwargs):
+# 		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
+# 		return context
 
 class CheckoutCreateView(LoginRequiredMixin, CreateView):
 	form_class = CheckoutCreateForm

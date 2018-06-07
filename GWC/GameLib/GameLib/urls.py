@@ -23,7 +23,6 @@ from Collections.views import (
     PersonListView,
     PersonDetailView,
     PersonCreateView,
-    #PersonUpdateView,
     BoardgameListView,
     BoardgameDetailView,
     BoardgameCreateView,
@@ -31,7 +30,7 @@ from Collections.views import (
     CollectionDetailView,
     CollectionCreateView,
     CheckoutListView,
-    CheckoutDetailView,
+    #CheckoutDetailView,
     CheckoutCreateView,
 
 )
@@ -44,7 +43,6 @@ urlpatterns = [
     url(r'^person/$', PersonListView.as_view()),
     url(r'^person/(?P<slug>\w+)$', PersonListView.as_view()),
     url(r'^persondetail/(?P<pk>\w+)$', PersonDetailView.as_view()),
-    #url(r'^personedit/(?P<slug>\w+)$', PersonUpdateView.as_view()),
     url(r'^personadd/$', PersonCreateView.as_view()),
     url(r'^boardgame/$', BoardgameListView.as_view()),
     url(r'^boardgame/(?P<slug>\w+)$', BoardgameListView.as_view()),
@@ -56,6 +54,7 @@ urlpatterns = [
     url(r'^collectionadd/$', CollectionCreateView.as_view()),
     url(r'^checkout/$', CheckoutListView.as_view()),
     url(r'^checkout/(?P<slug>\w+)$', CheckoutListView.as_view()),
-    url(r'^checkoutdetail/(?P<pk>\w+)$', CheckoutDetailView.as_view()),
+    #url(r'^checkoutdetail/(?P<pk>\w+)$', CheckoutDetailView.as_view()),
     url(r'^checkoutadd/$', CheckoutCreateView.as_view()),
+    #url(r'^checkoutadd/(?P<slug>\w+)$', CheckoutCreateView.as_view()),
 ]

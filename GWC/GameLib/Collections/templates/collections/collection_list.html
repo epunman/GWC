@@ -9,7 +9,14 @@
     <table id="collection">
         {% for obj in object_list %}
             <tr>
-                <td><a href="/collectiondetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</td>
+                <td><a href="/checkoutadd">Checkout</a></td>
+                <td><a href="/collectiondetail/{{ obj.pk }}">{{ obj.Boardgame.Name }}</a></td>
+                <td>{{ obj.Person.LastName }},{{ obj.Person.FirstName }}</td>
+                {% if obj.Boardgame.BGGRef|length > 0 %}
+                    <td><a href="{{ obj.Boardgame.BGGRef }}" target="blank">BGG</a></td>
+                {% else %}
+                    <td>&nbsp</td>
+                {% endif %}
             </tr>
         {% endfor %}
     </table>

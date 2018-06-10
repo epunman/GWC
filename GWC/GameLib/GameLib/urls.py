@@ -30,7 +30,7 @@ from Collections.views import (
     CollectionDetailView,
     CollectionCreateView,
     CheckoutListView,
-    #CheckoutDetailView,
+    CheckoutDetailView,
     CheckoutCreateView,
 
 )
@@ -53,8 +53,8 @@ urlpatterns = [
     url(r'^collectiondetail/(?P<pk>\w+)$', CollectionDetailView.as_view()),
     url(r'^collectionadd/$', CollectionCreateView.as_view()),
     url(r'^checkout/$', CheckoutListView.as_view()),
-    url(r'^checkout/(?P<slug>\w+)$', CheckoutListView.as_view()),
-    #url(r'^checkoutdetail/(?P<pk>\w+)$', CheckoutDetailView.as_view()),
+    #url(r'^checkout/(?P<slug>\w+)$', CheckoutListView.as_view()),
+    url(r'^checkoutdetail/(?P<pk>\w+)$', CheckoutDetailView.as_view()),
     url(r'^checkoutadd/$', CheckoutCreateView.as_view()),
     #url(r'^checkoutadd/(?P<slug>\w+)$', CheckoutCreateView.as_view()),
 ]

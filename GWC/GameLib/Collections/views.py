@@ -1,15 +1,12 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Q
-# from django.http import HttpResponse, HttpResponseRedirect
-# from django.shortcuts import render
-# from django.views import View
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from .models import Person, Boardgame, Collection, Checkout
 from .forms import PersonCreateForm, BoardgameCreateForm, CollectionCreateForm, CheckoutCreateForm
 
 class PersonListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/person_list.html'
-	paginate_by = 30
+	#paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
@@ -47,7 +44,7 @@ class PersonCreateView(LoginRequiredMixin, CreateView):
 
 class BoardgameListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/boardgame_list.html'
-	paginate_by = 30
+	#paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
@@ -78,7 +75,7 @@ class BoardgameCreateView(LoginRequiredMixin, CreateView):
 
 class CollectionListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/collection_list.html'
-	paginate_by = 30
+	#paginate_by = 30
 
 	def get_queryset(self):
 		slug = self.kwargs.get("slug")
@@ -88,14 +85,19 @@ class CollectionListView(LoginRequiredMixin, ListView):
 					Q(Person__LastName__icontains=slug) |
 					Q(Boardgame__Name__iexact=slug) |
 					Q(Boardgame__Name__icontains=slug)
-				)
+				).select_related('Boardgame','Person')
 		else:
-			queryset = Collection.objects.all()
+			queryset = Collection.objects.all().select_related('Boardgame','Person')
 		return queryset
+
+# 	def get_context_data(self, **kwargs):
+# 	    context = super(CollectionListView,self).get_context_data(**kwargs)
+# 	    context['collectioncheckout'] = Checkout.objects.filter(Q(Checkout__CheckedOutTime__isnull=False) & Q(Checkout__CheckedInTime__isnull=True))
+# 	    return context
 
 class CollectionDetailView(LoginRequiredMixin, UpdateView):
 	form_class = CollectionCreateForm
-	queryset = Collection.objects.all()
+	queryset = Collection.objects.all().select_related('Boardgame','Person')
 	template_name = 'collections/collection_form.html'
 	success_url = '/collection'
 
@@ -111,18 +113,21 @@ class CollectionCreateView(LoginRequiredMixin, CreateView):
 
 class CheckoutListView(LoginRequiredMixin, ListView):
 	template_name = 'collections/checkout_list.html'
-	paginate_by = 30
+	#paginate_by = 30
 
 	def get_queryset(self):
-		queryset = Checkout.objects.all()
+		queryset = Checkout.objects.all().select_related('BoardgameFromCollection','Attendee')
 		return queryset
 
-# class CheckoutDetailView(LoginRequiredMixin, DetailView):
-# 	queryset = Checkout.objects.all()
-# 	template_name = 'collections/checkout_form.html'
-# 	def get_context_data(self, *args, **kwargs):
-# 		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
-# 		return context
+class CheckoutDetailView(LoginRequiredMixin, UpdateView):
+	form_class = CheckoutCreateForm
+	queryset = Checkout.objects.all().select_related('BoardgameFromCollection','Attendee')
+	template_name = 'collections/checkout_form.html'
+	success_url = '/checkout'
+
+	def get_context_data(self, *args, **kwargs):
+		context = super(CheckoutDetailView, self).get_context_data(*args, **kwargs)
+		return context
 
 class CheckoutCreateView(LoginRequiredMixin, CreateView):
 	form_class = CheckoutCreateForm

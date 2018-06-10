@@ -3,13 +3,18 @@
 {% block head_title %}Boardgame List || {{ block.super }}{% endblock head_title %}
 
 {% block content %}
-<h1>Boardgame List&nbsp&nbsp&nbsp&nbsp<small><a href="/boardgameadd">Add</a></small></h1>
+<h3>Boardgame List&nbsp&nbsp&nbsp&nbsp<small><a href="/boardgameadd">Add</a></small></h3>
 
 {% if object_list %}
     <table id="boardgame">
         {% for obj in object_list %}
             <tr>
-                <td><a href="/boardgamedetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</td>
+                <td><a href="/boardgamedetail/{{ obj.pk }}">{{ obj }}</a></td>
+                {% if obj.BGGRef|length > 0 %}
+                    <td><a href="{{ obj.BGGRef }}" target="blank">{{ obj.BGGRef }}</a></td>
+                {% else %}
+                    <td>&nbsp</td>
+                {% endif %}
             </tr>
         {% endfor %}
     </table>

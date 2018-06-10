@@ -3,13 +3,18 @@
 {% block head_title %}Person List || {{ block.super }}{% endblock head_title %}
 
 {% block content %}
-<h1>Person List&nbsp&nbsp&nbsp&nbsp<small><a href="/personadd">Add</a></small></h1>
+<h3>Person List&nbsp&nbsp&nbsp&nbsp<small><a href="/personadd">Add</a></small></h3>
 
 {% if object_list %}
     <table id="person">
         {% for obj in object_list %}
             <tr>
-                <td><a href="/persondetail/{{ obj.pk }}">{{ obj }}</a> {{obj.CreatedTime}} {{obj.ModifiedTime}}</td>
+                <td><a href="/persondetail/{{ obj.pk }}">{{ obj }}</a></td>
+                {% if obj.BadgeNumber|length > 0 %}
+                    <td>Badge {{ obj.BadgeNumber }}</td>
+                {% else %}
+                    <td>&nbsp</td>
+                {% endif %}
             </tr>
         {% endfor %}
     </table>

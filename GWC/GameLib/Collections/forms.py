@@ -48,6 +48,7 @@ class CollectionCreateForm(forms.ModelForm):
 			'PreWeight',
 			'RegisteredPersonalGame',
 			'AvailableAtEvent',
+			'Shelved',
 		]
 
 class CheckoutCreateForm(forms.ModelForm):

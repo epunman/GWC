@@ -3,19 +3,32 @@
 {% block head_title %}Collection List || {{ block.super }}{% endblock head_title %}
 
 {% block content %}
-<h1>Collection List&nbsp&nbsp&nbsp&nbsp<small><a href="/collectionadd">Add</a></small></h1>
+<h3>Collection List&nbsp&nbsp&nbsp&nbsp<small><a href="/collectionadd">Add</a></small></h3>
 
 {% if object_list %}
     <table id="collection">
         {% for obj in object_list %}
             <tr>
-                <td><a href="/checkoutadd">Checkout</a></td>
                 <td><a href="/collectiondetail/{{ obj.pk }}">{{ obj.Boardgame.Name }}</a></td>
                 <td>{{ obj.Person.LastName }},{{ obj.Person.FirstName }}</td>
+                <td><small>{% if obj.AvailableAtEvent == True %}Bringing {% else %}&nbsp{% endif %}</small></td>
                 {% if obj.Boardgame.BGGRef|length > 0 %}
                     <td><a href="{{ obj.Boardgame.BGGRef }}" target="blank">BGG</a></td>
                 {% else %}
                     <td>&nbsp</td>
+                {% endif %}
+                {% if obj.Shelved == True %}
+                    {% for co in obj.checkout_set.all %}
+                        {% if not co.CheckedInTime %}
+                            <td bgcolor = #FFFF00><a href="/checkoutdetail/{{ co.pk }}">Check In</a></td>
+                            <td>{{ co.CheckedOutTime }}</td>
+                            <td>{{ co.Attendee }} </td>
+                        {% else %}
+                            <td><a href="/checkoutadd">Checkout</a></td>
+                        {% endif %}
+                    {% empty %}
+                        <td><a href="/checkoutadd">Checkout</a></td>
+                    {% endfor %}
                 {% endif %}
             </tr>
         {% endfor %}

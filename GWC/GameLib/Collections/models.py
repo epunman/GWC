@@ -21,6 +21,7 @@ class Person(models.Model):
 	ReceiveNewsletter = models.BooleanField(default=False)
 	NewsletterFrequencyCode = models.CharField(max_length = 1, null=True, blank=True)
 	AuthUser = models.ForeignKey(User, null=True, blank=True)
+	pass
 
 	class Meta:
 		ordering=['LastName','FirstName']
@@ -39,6 +40,7 @@ class Boardgame(models.Model):
 	BGGRef = models.URLField(null=True, blank=True)
 	Name = models.CharField(max_length = 100)
 	UPC = models.CharField(max_length = 30, null=True, blank=True)
+	pass
 
 	class Meta:
 	    ordering=['Name']
@@ -57,12 +59,18 @@ class Collection(models.Model):
 	PreWeight = models.DecimalField(decimal_places=6, max_digits=8, null=True, blank=True)
 	RegisteredPersonalGame = models.BooleanField(default=False)
 	AvailableAtEvent = models.BooleanField(default=False) #Temporary until event specific collections are added
+	Shelved = models.BooleanField(default=False)
+	pass
 
 	class Meta:
 	    ordering=['Boardgame','Person']
+	    indexes=[
+	        models.Index(fields=['Boardgame']),
+	        models.Index(fields=['Person']),
+	        models.Index(fields=['Shelved'])]
 
 	def __str__(self):
-		return "%s: %s" % (self.Person, self.Boardgame.Name)
+		return "%s: %s" % (self.Boardgame.Name, self.Person)
 
 class Checkout(models.Model):
 	CheckedOutTime = models.DateTimeField(default=timezone.now)
@@ -73,9 +81,13 @@ class Checkout(models.Model):
 	PreConditionNote = models.CharField(max_length = 500, null=True, blank=True)
 	PostConditionNote = models.CharField(max_length = 500, null=True, blank=True)
 	PostWeight = models.DecimalField(decimal_places=6, max_digits=8, null=True, blank=True)
+	pass
 
 	class Meta:
 	    ordering=['-CheckedInTime','CheckedOutTime']
+	    indexes=[
+	        models.Index(fields=['CheckedOutTime','CheckedInTime']),
+	        models.Index(fields=['BoardgameFromCollection'])]
 
 	def __str__(self):
 		return "%s, %s: %s" % (self.Attendee.LastName, self.Attendee.FirstName, self.BoardgameFromCollection.Boardgame.Name)

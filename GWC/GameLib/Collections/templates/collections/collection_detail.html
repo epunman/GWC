@@ -3,9 +3,9 @@
 {% block head_title %}Collection Detail || {{ block.super }}{% endblock head_title %}
 
 {% block content %}
-<h1>{{ object }}</h1>
+<h3>{{ object }}</h3>
 <p>{{ object.Person}}</p>
-<p>{{ object.Boardgame}}</p>
+<p>{{ object.Boardgame}}&nbsp&nbsp&nbsp&nbsp<a href="/boardgameadd" target="blank">Add (if not in the list yet)</a></p>
 <p>{{ object.RFIDTag}}</p>
 <p>{{ object.PreWeight}}</p>
 <p>{{ object.RegisteredPersonalGame}}</p>

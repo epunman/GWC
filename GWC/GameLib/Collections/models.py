@@ -24,14 +24,14 @@ class Person(models.Model):
 	pass
 
 	class Meta:
-		ordering=['LastName','FirstName']
+		ordering=['BadgeNumber','LastName','FirstName']
 		unique_together=['BadgeNumber']
 		indexes=[
 		    models.Index(fields=['LastName','FirstName']),
 		    models.Index(fields=['BadgeNumber'])]
 
 	def __str__(self):
-		return "%s, %s" % (self.LastName, self.FirstName)
+		return "%s  %s, %s" % (self.BadgeNumber, self.LastName, self.FirstName)
 
 
 class Boardgame(models.Model):

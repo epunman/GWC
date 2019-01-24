@@ -1,0 +1,1081 @@
+  LastName  |                                 Boardgame                                  | NumDups 
+------------+----------------------------------------------------------------------------+---------
+ Armstrong  | 7 Wonders Duel                                                             |       5
+ Armstrong  | Age of Industry                                                            |       2
+ Armstrong  | Airlines Europe                                                            |       1
+ Armstrong  | Antarctica                                                                 |       1
+ Armstrong  | AquaSphere                                                                 |       2
+ Armstrong  | Ave Roma                                                                   |       1
+ Armstrong  | BANG! Dodge City                                                           |       1
+ Armstrong  | Barcelona: The Rose of Fire                                                |       1
+ Armstrong  | Bärenpark                                                                  |       3
+ Armstrong  | Brass Lancashire                                                           |       3
+ Armstrong  | Brides & Bribes                                                            |       1
+ Armstrong  | Bring Out Yer Dead                                                         |       2
+ Armstrong  | Bruxelles 1893                                                             |       1
+ Armstrong  | Cacao                                                                      |       1
+ Armstrong  | Carcassonne: Amazonas                                                      |       1
+ Armstrong  | Castles of Mad King Ludwig                                                 |       3
+ Armstrong  | Caylus                                                                     |       3
+ Armstrong  | Century: Spice Road                                                        |       2
+ Armstrong  | Citadels                                                                   |       3
+ Armstrong  | CO₂                                                                        |       1
+ Armstrong  | Coal Baron                                                                 |       2
+ Armstrong  | Codenames                                                                  |       3
+ Armstrong  | Codenames Pictures                                                         |       1
+ Armstrong  | Dragon Brew                                                                |       2
+ Armstrong  | Dungeon Petz                                                               |       3
+ Armstrong  | Edo                                                                        |       2
+ Armstrong  | El Gaucho                                                                  |       1
+ Armstrong  | Expo 1906                                                                  |       1
+ Armstrong  | Fields of Green                                                            |       1
+ Armstrong  | First Class                                                                |       1
+ Armstrong  | Forged in Steel                                                            |       1
+ Armstrong  | Grand Austria Hotel                                                        |       2
+ Armstrong  | Great Western Trail                                                        |       1
+ Armstrong  | Guilds of London                                                           |       1
+ Armstrong  | Haleakala                                                                  |       1
+ Armstrong  | Haspelknecht                                                               |       3
+ Armstrong  | Hawaii                                                                     |       1
+ Armstrong  | Hey, That's My Fish!                                                       |       2
+ Armstrong  | Homesteaders                                                               |       1
+ Armstrong  | Honshu                                                                     |       1
+ Armstrong  | Ice Cool                                                                   |       2
+ Armstrong  | Island Siege                                                               |       1
+ Armstrong  | Johari                                                                     |       1
+ Armstrong  | Jórvík                                                                     |       1
+ Armstrong  | Karuba                                                                     |       1
+ Armstrong  | Kingdomino                                                                 |       3
+ Armstrong  | La Granja                                                                  |       1
+ Armstrong  | La Granja: No Siesta                                                       |       1
+ Armstrong  | Lancaster                                                                  |       1
+ Armstrong  | Last Will                                                                  |       2
+ Armstrong  | Lewis & Clark                                                              |       3
+ Armstrong  | Lignum (second edition)                                                    |       1
+ Armstrong  | Mombasa                                                                    |       2
+ Armstrong  | Montana                                                                    |       1
+ Armstrong  | Murano                                                                     |       1
+ Armstrong  | Myrmes                                                                     |       1
+ Armstrong  | My Village                                                                 |       1
+ Armstrong  | Nations: The Dice Game                                                     |       2
+ Armstrong  | Navegador                                                                  |       1
+ Armstrong  | New Bedford                                                                |       1
+ Armstrong  | New Bedford: Rising Tide                                                   |       1
+ Armstrong  | Notre Dame                                                                 |       1
+ Armstrong  | Pandemic Iberia                                                            |       2
+ Armstrong  | Pandemic: The Cure                                                         |       4
+ Armstrong  | Paperback                                                                  |       3
+ Armstrong  | Patchwork                                                                  |       4
+ Armstrong  | Peloponnes                                                                 |       1
+ Armstrong  | Power Grid Card Game                                                       |       2
+ Armstrong  | Prime Time                                                                 |       1
+ Armstrong  | Railroad Revolution                                                        |       1
+ Armstrong  | Rallyman                                                                   |       2
+ Armstrong  | Rococo                                                                     |       1
+ Armstrong  | Roll for it!                                                               |       2
+ Armstrong  | Russian Railroads                                                          |       2
+ Armstrong  | Sagrada                                                                    |       5
+ Armstrong  | Sanssouci                                                                  |       1
+ Armstrong  | Ships                                                                      |       1
+ Armstrong  | Small World                                                                |       2
+ Armstrong  | Snow Tails                                                                 |       1
+ Armstrong  | Spirits of the Rice Paddy                                                  |       1
+ Armstrong  | Stone Age                                                                  |       3
+ Armstrong  | Suburbia                                                                   |       2
+ Armstrong  | Survive Escape From Atlantis                                               |       1
+ Armstrong  | Terraforming Mars                                                          |       4
+ Armstrong  | The Castles of Burgundy                                                    |       3
+ Armstrong  | The Castles of Burgundy: The Card Game                                     |       2
+ Armstrong  | The Castles of Burgundy: The Dice Game                                     |       1
+ Armstrong  | The Climbers                                                               |       1
+ Armstrong  | The Colonists                                                              |       2
+ Armstrong  | The Voyages of Marco Polo                                                  |       1
+ Armstrong  | Through the Ages: A Story of Civilization                                  |       2
+ Armstrong  | Ticket to Ride Europe                                                      |       3
+ Armstrong  | Tokaido                                                                    |       3
+ Armstrong  | Treasure Mountain                                                          |       1
+ Armstrong  | Trickerion: Legends of Illusion                                            |       2
+ Armstrong  | Troyes                                                                     |       2
+ Armstrong  | Vanuatu (second edition)                                                   |       1
+ Armstrong  | Village                                                                    |       1
+ Armstrong  | VivaJava: The Coffee Game: The Dice Game                                   |       2
+ Armstrong  | Yokohama                                                                   |       2
+ Armstrong  | Zombie Dice                                                                |       2
+ Bacon      | 1775: Rebellion                                                            |       1
+ Bacon      | 1830: Railways & Robber Barons                                             |       1
+ Bacon      | 1844/1854                                                                  |       1
+ Bacon      | 1846: The Race for the Midwest                                             |       2
+ Bacon      | 18Ireland                                                                  |       1
+ Bacon      | A Game of Thrones: The Board Game (Second Edition)                         |       1
+ Bacon      | Age of Steam                                                               |       1
+ Bacon      | Agricola                                                                   |       3
+ Bacon      | Akrotiri                                                                   |       1
+ Bacon      | BattleLore (Second Edition)                                                |       1
+ Bacon      | Battlestar Galactica: The Board Game                                       |       1
+ Bacon      | Caylus                                                                     |       3
+ Bacon      | Chinatown                                                                  |       1
+ Bacon      | Citadels                                                                   |       3
+ Bacon      | Codenames                                                                  |       3
+ Bacon      | Concordia                                                                  |       2
+ Bacon      | Coup                                                                       |       2
+ Bacon      | Courtier                                                                   |       1
+ Bacon      | Dixit: Odyssey                                                             |       1
+ Bacon      | Dominant Species                                                           |       1
+ Bacon      | Eminent Domain                                                             |       1
+ Bacon      | Endeavor                                                                   |       1
+ Bacon      | Escape: The Curse of the Temple                                            |       3
+ Bacon      | Ethnos                                                                     |       1
+ Bacon      | Eurorails                                                                  |       3
+ Bacon      | Exodus: Proxima Centauri                                                   |       1
+ Bacon      | For-Ex                                                                     |       1
+ Bacon      | Fresco                                                                     |       1
+ Bacon      | Glen More                                                                  |       1
+ Bacon      | Global Mogul                                                               |       1
+ Bacon      | Haggis                                                                     |       2
+ Bacon      | Hansa Teutonica                                                            |       1
+ Bacon      | Haspelknecht                                                               |       3
+ Bacon      | Hey, That's My Fish!                                                       |       2
+ Bacon      | Hive                                                                       |       2
+ Bacon      | Imperial 2030                                                              |       1
+ Bacon      | Iron Dragon                                                                |       3
+ Bacon      | Kanban: Automotive Revolution                                              |       2
+ Bacon      | Kemet                                                                      |       1
+ Bacon      | King Chocolate                                                             |       1
+ Bacon      | Kingdom Builder                                                            |       3
+ Bacon      | King of New York                                                           |       2
+ Bacon      | Love Letter Premium Edition                                                |       1
+ Bacon      | Madeira                                                                    |       1
+ Bacon      | Merchants & Marauders                                                      |       1
+ Bacon      | Mombasa                                                                    |       2
+ Bacon      | Nyet!                                                                      |       2
+ Bacon      | Ora Et Labora                                                              |       3
+ Bacon      | Pax Renaissance                                                            |       1
+ Bacon      | Planet Steam                                                               |       1
+ Bacon      | Poseidon                                                                   |       1
+ Bacon      | Puerto Rico                                                                |       3
+ Bacon      | Qwirkle                                                                    |       2
+ Bacon      | Roll for the Galaxy                                                        |       3
+ Bacon      | Russian Railroads                                                          |       2
+ Bacon      | Sagrada                                                                    |       5
+ Bacon      | Saint Petersburg (second edition)                                          |       1
+ Bacon      | Splendor                                                                   |       5
+ Bacon      | Steam                                                                      |       1
+ Bacon      | Stronghold                                                                 |       1
+ Bacon      | Tammany Hall                                                               |       1
+ Bacon      | Terror in Meeple City                                                      |       2
+ Bacon      | The Castles of Burgundy                                                    |       3
+ Bacon      | The Duke                                                                   |       2
+ Bacon      | The Manhattan Project                                                      |       1
+ Bacon      | The Networks                                                               |       1
+ Bacon      | The Resistance                                                             |       2
+ Bacon      | The Walled City: Londonderry & Borderlands                                 |       1
+ Bacon      | Three Kingdoms Redux                                                       |       1
+ Bacon      | Ticket to Ride                                                             |       4
+ Bacon      | Tigris & Euphrates                                                         |       1
+ Bacon      | Troyes                                                                     |       2
+ Bacon      | Tzolk'in: The Mayan Calendar                                               |       2
+ Bacon      | Urban Sprawl                                                               |       1
+ Bacon      | Zooloretto                                                                 |       1
+ Davis      | Fallout                                                                    |       1
+ Davis      | Mechs Vs. Minions                                                          |       1
+ Goodmanson | 10 Days in Africa                                                          |       1
+ Goodmanson | 10 Days in Asia                                                            |       1
+ Goodmanson | 10 Days in Europe                                                          |       1
+ Goodmanson | 10 Days in the Americas                                                    |       1
+ Goodmanson | 10 Days in the USA                                                         |       1
+ Goodmanson | 13 Minutes: The Cuban Missile Crisis                                       |       2
+ Goodmanson | 18 Wheeler                                                                 |       1
+ Goodmanson | 7 Wonders Duel                                                             |       5
+ Goodmanson | Above and Below                                                            |       2
+ Goodmanson | A Fistful of Penguins                                                      |       1
+ Goodmanson | Alhambra: Big Box                                                          |       1
+ Goodmanson | Alhambra: The Dice Game                                                    |       1
+ Goodmanson | Alien Frontiers                                                            |       3
+ Goodmanson | AquaSphere                                                                 |       2
+ Goodmanson | Arboretum                                                                  |       1
+ Goodmanson | Archaeology: The Card Game                                                 |       2
+ Goodmanson | Archaeology: The Card Game                                                 |       2
+ Goodmanson | Area 1851                                                                  |       1
+ Goodmanson | Ascending Empires                                                          |       1
+ Goodmanson | Australian Rails                                                           |       1
+ Goodmanson | Avenue                                                                     |       2
+ Goodmanson | Azul                                                                       |       3
+ Goodmanson | Bananagrams                                                                |       1
+ Goodmanson | BANG!                                                                      |       2
+ Goodmanson | BANG!                                                                      |       2
+ Goodmanson | Bang! Wild West Show                                                       |       1
+ Goodmanson | Bärenpark                                                                  |       3
+ Goodmanson | Baseball Highlights: 2045                                                  |       1
+ Goodmanson | Battle Line                                                                |       1
+ Goodmanson | Battleship                                                                 |       2
+ Goodmanson | Battling Bones                                                             |       1
+ Goodmanson | Biblios                                                                    |       2
+ Goodmanson | Biblios                                                                    |       2
+ Goodmanson | Big Boggle                                                                 |       1
+ Goodmanson | Blue Moon Legends                                                          |       1
+ Goodmanson | Blueprints                                                                 |       1
+ Goodmanson | Bohnanza                                                                   |       1
+ Goodmanson | Bohnanza: The Duel                                                         |       1
+ Goodmanson | bOOLeO                                                                     |       1
+ Goodmanson | Boss Monster                                                               |       3
+ Goodmanson | Bountytown                                                                 |       1
+ Goodmanson | Brainstormer                                                               |       1
+ Goodmanson | Bridge Troll                                                               |       1
+ Goodmanson | Buccaneer Bones                                                            |       1
+ Goodmanson | Bullfrogs                                                                  |       2
+ Goodmanson | Bunny Bunny Moose Moose                                                    |       1
+ Goodmanson | Carcassonne The Castle                                                     |       2
+ Goodmanson | Carcassonne: The Dice Game                                                 |       1
+ Goodmanson | Cardline: Globetrotter                                                     |       2
+ Goodmanson | Cartagena                                                                  |       1
+ Goodmanson | Castles of Mad King Ludwig                                                 |       3
+ Goodmanson | Catacombs (third edition)                                                  |       1
+ Goodmanson | Century: Spice Road                                                        |       2
+ Goodmanson | Chemistry Fluxx                                                            |       1
+ Goodmanson | Chess                                                                      |       1
+ Goodmanson | Chickyboom                                                                 |       1
+ Goodmanson | China Rails                                                                |       2
+ Goodmanson | Chrononauts                                                                |       2
+ Goodmanson | Cleopatra and the Society of Architects                                    |       1
+ Goodmanson | CN Fluxx                                                                   |       1
+ Goodmanson | Codenames                                                                  |       3
+ Goodmanson | Codenames Duet                                                             |       2
+ Goodmanson | Cold War: CIA vs KGB                                                       |       1
+ Goodmanson | Colt Express                                                               |       1
+ Goodmanson | Compounded                                                                 |       3
+ Goodmanson | Continental Express                                                        |       1
+ Goodmanson | Cottage Garden                                                             |       1
+ Goodmanson | Court of the Medici                                                        |       1
+ Goodmanson | Crappy Birthday                                                            |       1
+ Goodmanson | Cribbage                                                                   |       1
+ Goodmanson | Cube Quest                                                                 |       1
+ Goodmanson | Decrypto                                                                   |       1
+ Goodmanson | Desperados of Dice Town                                                    |       1
+ Goodmanson | Diamonds                                                                   |       1
+ Goodmanson | Dice City                                                                  |       2
+ Goodmanson | Dicey Peaks                                                                |       1
+ Goodmanson | Diner                                                                      |       1
+ Goodmanson | Dixit Jinx                                                                 |       2
+ Goodmanson | Dragon Lairds                                                              |       1
+ Goodmanson | Dragon Slayer                                                              |       1
+ Goodmanson | Dungeon Lords                                                              |       1
+ Goodmanson | Dungeon Lords: Festival Season                                             |       1
+ Goodmanson | Dungeon Petz                                                               |       3
+ Goodmanson | Eco Fluxx                                                                  |       1
+ Goodmanson | Einstein: His Amazing Life and Incomparable Science                        |       1
+ Goodmanson | Empire Builder                                                             |       1
+ Goodmanson | Escape: The Curse of the Temple                                            |       3
+ Goodmanson | Eurorails                                                                  |       3
+ Goodmanson | Faces                                                                      |       1
+ Goodmanson | Fairy Tale                                                                 |       1
+ Goodmanson | Farmageddon                                                                |       1
+ Goodmanson | Fastrack                                                                   |       1
+ Goodmanson | Felicity: The Cat in the Sack                                              |       2
+ Goodmanson | Finca                                                                      |       1
+ Goodmanson | Firefly Fluxx                                                              |       1
+ Goodmanson | Firenze                                                                    |       1
+ Goodmanson | Flamme Rouge                                                               |       1
+ Goodmanson | Flick 'em Up                                                               |       1
+ Goodmanson | Flip Ships                                                                 |       3
+ Goodmanson | Flower Fall                                                                |       1
+ Goodmanson | Fluxx                                                                      |       1
+ Goodmanson | Forbidden Desert                                                           |       2
+ Goodmanson | Forbidden Island                                                           |       3
+ Goodmanson | Fortress                                                                   |       1
+ Goodmanson | Friday                                                                     |       1
+ Goodmanson | FUSE                                                                       |       3
+ Goodmanson | Gang of Four                                                               |       1
+ Goodmanson | Get the MacGuffin                                                          |       1
+ Goodmanson | Give Me the Brain!                                                         |       2
+ Goodmanson | Go Goblin, Go!                                                             |       1
+ Goodmanson | Guess Who? Star Wars                                                       |       1
+ Goodmanson | Gunrunners                                                                 |       1
+ Goodmanson | Hanabi                                                                     |       2
+ Goodmanson | Happy Salmon (Blue)                                                        |       1
+ Goodmanson | Hive                                                                       |       2
+ Goodmanson | Hoax                                                                       |       1
+ Goodmanson | Indian Summer                                                              |       1
+ Goodmanson | Ingenious Challenges                                                       |       1
+ Goodmanson | Isle of Skye: From Chieftain to King                                       |       1
+ Goodmanson | Istanbul                                                                   |       1
+ Goodmanson | Istanbul: The Dice Game                                                    |       1
+ Goodmanson | Jaipur                                                                     |       3
+ Goodmanson | Junk Art                                                                   |       2
+ Goodmanson | Kanban: Automotive Revolution                                              |       2
+ Goodmanson | Keyflower                                                                  |       2
+ Goodmanson | Keyflower: The Farmers                                                     |       1
+ Goodmanson | Kingdomino                                                                 |       3
+ Goodmanson | Kingsburg                                                                  |       1
+ Goodmanson | Knit Wit                                                                   |       1
+ Goodmanson | Kodama: The Tree Spirits                                                   |       1
+ Goodmanson | L99 Minigame Library                                                       |       1
+ Goodmanson | La Isla                                                                    |       1
+ Goodmanson | Lanterns: The Harvest Festival                                             |       1
+ Goodmanson | Lewis & Clark                                                              |       3
+ Goodmanson | Lignum                                                                     |       1
+ Goodmanson | Loopin' Chewie                                                             |       1
+ Goodmanson | Lord of the Fries                                                          |       2
+ Goodmanson | Lord of the Rings: Journey to Mordor                                       |       1
+ Goodmanson | Lords of Scotland                                                          |       1
+ Goodmanson | Lotus                                                                      |       2
+ Goodmanson | Luchador! Mexican Wrestling Dice                                           |       1
+ Goodmanson | Mad Libs Card Game                                                         |       1
+ Goodmanson | Magic Maze                                                                 |       1
+ Goodmanson | Mamma Mia! Plus                                                            |       1
+ Goodmanson | Martian Dice                                                               |       1
+ Goodmanson | Martian Rails                                                              |       2
+ Goodmanson | Memoir '44                                                                 |       1
+ Goodmanson | Metro                                                                      |       1
+ Goodmanson | Mille Bornes                                                               |       1
+ Goodmanson | Modern Art                                                                 |       1
+ Goodmanson | Monikers                                                                   |       2
+ Goodmanson | Monikers                                                                   |       2
+ Goodmanson | Monkeys on the Moon                                                        |       1
+ Goodmanson | Mosaix                                                                     |       1
+ Goodmanson | Mottainai                                                                  |       3
+ Goodmanson | Mü & Lots More                                                             |       1
+ Goodmanson | Near and Far                                                               |       1
+ Goodmanson | New York Slice                                                             |       1
+ Goodmanson | Nippon Rails                                                               |       1
+ Goodmanson | NMBR 9                                                                     |       1
+ Goodmanson | Notre Dame: 10th Anniversary                                               |       1
+ Goodmanson | Oceania                                                                    |       1
+ Goodmanson | Octo Dice                                                                  |       1
+ Goodmanson | Oddville                                                                   |       2
+ Goodmanson | Oh My Goods!                                                               |       1
+ Goodmanson | Omen                                                                       |       1
+ Goodmanson | One Zero One                                                               |       1
+ Goodmanson | On the Underground                                                         |       1
+ Goodmanson | Orphan Black: The Card Game                                                |       1
+ Goodmanson | Pandemic                                                                   |       3
+ Goodmanson | Pandemic: The Cure                                                         |       4
+ Goodmanson | Paperback                                                                  |       3
+ Goodmanson | Pass the Pandas                                                            |       1
+ Goodmanson | Pecking Order                                                              |       2
+ Goodmanson | Penguin Rescue                                                             |       1
+ Goodmanson | Photosynthesis                                                             |       1
+ Goodmanson | Piece o' Cake                                                              |       1
+ Goodmanson | Pie Town                                                                   |       1
+ Goodmanson | Pink Hijinks                                                               |       1
+ Goodmanson | Pirate Fluxx                                                               |       1
+ Goodmanson | Pit                                                                        |       2
+ Goodmanson | Pit Crew                                                                   |       1
+ Goodmanson | Puerto Rico                                                                |       3
+ Goodmanson | Queendomino                                                                |       2
+ Goodmanson | Queen's Architect                                                          |       1
+ Goodmanson | Quiddler                                                                   |       1
+ Goodmanson | Qwixx                                                                      |       1
+ Goodmanson | R2-D2 is in Trouble                                                        |       1
+ Goodmanson | Raptor                                                                     |       2
+ Goodmanson | Rattlesnake                                                                |       1
+ Goodmanson | Red Hot Silly Peppers                                                      |       1
+ Goodmanson | Resistor_                                                                  |       1
+ Goodmanson | Rhino Hero Super Battle                                                    |       1
+ Goodmanson | Risk: Star Wars Edition                                                    |       1
+ Goodmanson | Rivals of Catan                                                            |       1
+ Goodmanson | Rocky Road à la Mode                                                       |       1
+ Goodmanson | Roll for the Galaxy                                                        |       3
+ Goodmanson | Roll Through the Ages                                                      |       1
+ Goodmanson | Rook                                                                       |       1
+ Goodmanson | Rooster Rush                                                               |       1
+ Goodmanson | Saboteur                                                                   |       1
+ Goodmanson | Safranito                                                                  |       1
+ Goodmanson | Sagrada                                                                    |       5
+ Goodmanson | Saint Malo                                                                 |       1
+ Goodmanson | Samurai                                                                    |       1
+ Goodmanson | Samurai Sword                                                              |       1
+ Goodmanson | San Juan (second edition)                                                  |       1
+ Goodmanson | Scopa                                                                      |       1
+ Goodmanson | Scrabble Apple                                                             |       1
+ Goodmanson | Scrimish                                                                   |       1
+ Goodmanson | Sheriff of Nottingham                                                      |       3
+ Goodmanson | Sherlock Holmes Consulting Detective                                       |       1
+ Goodmanson | Skip-Bo                                                                    |       1
+ Goodmanson | Space Beans                                                                |       1
+ Goodmanson | Space Maze                                                                 |       1
+ Goodmanson | Splendor                                                                   |       5
+ Goodmanson | Spot it!                                                                   |       1
+ Goodmanson | Spyfall                                                                    |       1
+ Goodmanson | Star Fluxx                                                                 |       1
+ Goodmanson | Star Wars 3 Puzzle Pack                                                    |       1
+ Goodmanson | Star Wars Battleship                                                       |       1
+ Goodmanson | Star Wars: Destiny                                                         |       1
+ Goodmanson | Star Wars: Epic Duels                                                      |       1
+ Goodmanson | Star Wars Miniatures: Revenge of the Sith Starter Game                     |       1
+ Goodmanson | Star Wars Yahtzee Jr.                                                      |       1
+ Goodmanson | Stone Age                                                                  |       3
+ Goodmanson | Straight Shooter                                                           |       1
+ Goodmanson | Sugar Gliders                                                              |       1
+ Goodmanson | Sushi Go!                                                                  |       2
+ Goodmanson | Takenoko                                                                   |       2
+ Goodmanson | Taluva                                                                     |       1
+ Goodmanson | The Builders Middle Ages                                                   |       1
+ Goodmanson | The Castles of Burgundy                                                    |       3
+ Goodmanson | The Castles of Burgundy: The Card Game                                     |       2
+ Goodmanson | The Cave                                                                   |       1
+ Goodmanson | The Downfall of Pompeii                                                    |       1
+ Goodmanson | The Great Heartland Hauling Co.                                            |       1
+ Goodmanson | The Grizzled                                                               |       2
+ Goodmanson | The Manhattan Project: Energy Empire                                       |       1
+ Goodmanson | The Road to Canterbury                                                     |       1
+ Goodmanson | The Stars Are Right                                                        |       1
+ Goodmanson | Tichu                                                                      |       1
+ Goodmanson | Tier auf Tier: Das Duell                                                   |       1
+ Goodmanson | Tiki Topple                                                                |       1
+ Goodmanson | Timeline: Inventions                                                       |       4
+ Goodmanson | Timeline: Music and Cinema                                                 |       2
+ Goodmanson | T.I.M.E Stories                                                            |       3
+ Goodmanson | Tiny Epic Galaxies                                                         |       2
+ Goodmanson | Tiny Epic Kingdoms                                                         |       2
+ Goodmanson | Tiny Epic Kingdoms: Heroes' Call                                           |       2
+ Goodmanson | Top Dogs                                                                   |       1
+ Goodmanson | Topiary                                                                    |       1
+ Goodmanson | Traders of Osaka                                                           |       1
+ Goodmanson | Trigger!                                                                   |       1
+ Goodmanson | Twilight Squabble                                                          |       1
+ Goodmanson | Ultimate Stratego                                                          |       1
+ Goodmanson | Ultimate Werewolf                                                          |       1
+ Goodmanson | Unearth                                                                    |       2
+ Goodmanson | Uno                                                                        |       1
+ Goodmanson | Volle Wolle                                                                |       1
+ Goodmanson | Whistle Stop                                                               |       2
+ Goodmanson | Why Did the Chicken...?                                                    |       1
+ Goodmanson | Wilde Wikinger Machen Fette Beute                                          |       1
+ Goodmanson | Wizard                                                                     |       2
+ Goodmanson | Wizard                                                                     |       2
+ Goodmanson | Word on the Street                                                         |       2
+ Goodmanson | Wrong Chemistry                                                            |       1
+ Goodmanson | Würfel Bohnanza                                                            |       1
+ Goodmanson | Yamataï                                                                    |       1
+ Goodmanson | Zombie Dice                                                                |       2
+ Goodmanson | Zombie Fluxx                                                               |       1
+ GWC        | Ion                                                                        |       1
+ GWC        | Lords of Xidit                                                             |       2
+ GWC        | Lords of Xidit                                                             |       2
+ GWC        | Virulence                                                                  |       1
+ Mauer      | 1800                                                                       |       1
+ Mauer      | 1846: The Race for the Midwest                                             |       2
+ Mauer      | 1886                                                                       |       1
+ Mauer      | 1889: History of Shikoku Railways                                          |       1
+ Mauer      | 1890                                                                       |       1
+ Mauer      | 18CZ                                                                       |       1
+ Mauer      | 7 Wonders Duel                                                             |       5
+ Mauer      | Age of Industry                                                            |       2
+ Mauer      | A Handful of Stars                                                         |       1
+ Mauer      | Airborne Commander                                                         |       1
+ Mauer      | Alhambra                                                                   |       2
+ Mauer      | Android                                                                    |       2
+ Mauer      | Android: Infiltration                                                      |       1
+ Mauer      | Arkwright                                                                  |       2
+ Mauer      | Arkwright                                                                  |       2
+ Mauer      | Battles of Westeros                                                        |       1
+ Mauer      | BIOS: Genesis                                                              |       1
+ Mauer      | BIOS: Megafauna                                                            |       1
+ Mauer      | Blood Bowl: Team Manager – The Card Game                                   |       2
+ Mauer      | Boss Monster                                                               |       3
+ Mauer      | Boss Monster 2: The Next Level                                             |       1
+ Mauer      | Brass Lancashire                                                           |       3
+ Mauer      | Brew Crafters: The Travel Card Game                                        |       1
+ Mauer      | Cardline: Dinosaurs                                                        |       1
+ Mauer      | Car Wars                                                                   |       1
+ Mauer      | Cathedral                                                                  |       1
+ Mauer      | Caverna                                                                    |       3
+ Mauer      | Championship Formula Racing                                                |       1
+ Mauer      | China Rails                                                                |       2
+ Mauer      | Chrononauts                                                                |       2
+ Mauer      | Commands & Colors: Ancients                                                |       1
+ Mauer      | Dead Man’s Draw                                                            |       1
+ Mauer      | Dead of Winter: A Crossroads Game                                          |       2
+ Mauer      | Discount Salmon                                                            |       1
+ Mauer      | Dominant Species: The Card Game                                            |       1
+ Mauer      | Eclipse                                                                    |       2
+ Mauer      | Epic Card Game                                                             |       1
+ Mauer      | Eurorails                                                                  |       3
+ Mauer      | Falling Sky: The Gallic Revolt Against Caesar                              |       1
+ Mauer      | Fief: France 1429                                                          |       1
+ Mauer      | Formula D                                                                  |       1
+ Mauer      | FUSE                                                                       |       3
+ Mauer      | Game of Thrones: The Iron Throne                                           |       1
+ Mauer      | Good Cop Bad Cop                                                           |       1
+ Mauer      | Grand Prix                                                                 |       1
+ Mauer      | High Frontier (3rd edition)                                                |       1
+ Mauer      | Hisss                                                                      |       2
+ Mauer      | Hisss                                                                      |       2
+ Mauer      | Hyperborea                                                                 |       3
+ Mauer      | Import / Export                                                            |       1
+ Mauer      | Iron Dragon                                                                |       3
+ Mauer      | John Company                                                               |       1
+ Mauer      | Kingdom Builder                                                            |       3
+ Mauer      | Last Will                                                                  |       2
+ Mauer      | Martian Rails                                                              |       2
+ Mauer      | Monty Python Fluxx                                                         |       1
+ Mauer      | Mythotopia                                                                 |       2
+ Mauer      | Neuroshima Hex!                                                            |       1
+ Mauer      | Pandemic                                                                   |       3
+ Mauer      | Paris Connection                                                           |       1
+ Mauer      | Pendragon: The Fall of Roman Britain                                       |       1
+ Mauer      | Planes                                                                     |       1
+ Mauer      | Power Grid                                                                 |       2
+ Mauer      | Race! Formula 90                                                           |       1
+ Mauer      | Rallyman                                                                   |       2
+ Mauer      | Sidereal Confluence: Trading and Negotiation in the Elysian Quadrant       |       1
+ Mauer      | SPANC: Space Pirate Amazon Ninja Catgirls                                  |       1
+ Mauer      | Terraforming Mars                                                          |       4
+ Mauer      | Terra Mystica                                                              |       2
+ Mauer      | This War of Mine: The Board Game                                           |       1
+ Mauer      | Ticket to Ride: First Journey (U.S.)                                       |       1
+ Mauer      | Timeline: Inventions                                                       |       4
+ Mauer      | T.I.M.E Stories                                                            |       3
+ Mauer      | Tokaido                                                                    |       3
+ Mauer      | Tramways                                                                   |       1
+ Mauer      | Via Nebula                                                                 |       1
+ Mauer      | Walk the Plank!                                                            |       1
+ Mauer      | Whistle Stop                                                               |       2
+ Mauer      | World of Tanks: Rush                                                       |       1
+ Mauer      | Xia: Legends of a Drift System                                             |       1
+ Mielke     | 60 Seconds to Save the World                                               |       1
+ Mielke     | Agricola                                                                   |       3
+ Mielke     | Blood Rage                                                                 |       2
+ Mielke     | Blood Rage                                                                 |       2
+ Mielke     | Bora Bora                                                                  |       1
+ Mielke     | Ca$h 'n Guns (Second Edition)                                              |       1
+ Mielke     | Castles of Mad King Ludwig                                                 |       3
+ Mielke     | Cat Lady                                                                   |       1
+ Mielke     | Caverna                                                                    |       3
+ Mielke     | Caverna: Cave vs. Cave                                                     |       3
+ Mielke     | Cry Havoc                                                                  |       1
+ Mielke     | Diplomacy                                                                  |       1
+ Mielke     | Downforce                                                                  |       1
+ Mielke     | Escape: The Curse of the Temple                                            |       3
+ Mielke     | Grand Austria Hotel                                                        |       2
+ Mielke     | Haspelknecht                                                               |       3
+ Mielke     | Imperial Settlers                                                          |       3
+ Mielke     | Kingdomino                                                                 |       3
+ Mielke     | King of Tokyo                                                              |       4
+ Mielke     | Life on the Farm Board Game                                                |       1
+ Mielke     | Lords of Waterdeep                                                         |       2
+ Mielke     | Lotus                                                                      |       2
+ Mielke     | Love Letter: Batman                                                        |       3
+ Mielke     | Mad Science Expo                                                           |       1
+ Mielke     | Mage Knight                                                                |       2
+ Mielke     | Merchants & Marauders: Broadsides                                          |       1
+ Mielke     | New York 1901                                                              |       1
+ Mielke     | Oceanos                                                                    |       1
+ Mielke     | Orleans                                                                    |       3
+ Mielke     | Orléans: Invasion                                                          |       1
+ Mielke     | Patchwork                                                                  |       4
+ Mielke     | Potion Explosion                                                           |       2
+ Mielke     | Quadropolis                                                                |       1
+ Mielke     | RYŪ                                                                        |       1
+ Mielke     | Seasons                                                                    |       2
+ Mielke     | Sheriff of Nottingham                                                      |       3
+ Mielke     | Small World Underground                                                    |       1
+ Mielke     | Sobek                                                                      |       1
+ Mielke     | Splendor                                                                   |       5
+ Mielke     | Stone Age                                                                  |       3
+ Mielke     | The Ruhr: A Story of Coal Trade                                            |       1
+ Mielke     | Through the Ages: A Story of Civilization                                  |       2
+ Mielke     | Ticket to Ride                                                             |       4
+ Mielke     | Ticket to Ride Europe                                                      |       3
+ Mielke     | Viceroy                                                                    |       2
+ Mielke     | Vikings on Board                                                           |       2
+ Mielke     | Vikings on Board                                                           |       2
+ Rector     | Aggravation                                                                |       1
+ Rector     | Apples to Apples                                                           |       1
+ Rector     | ASHES Rise of the Phoenixborn                                              |       2
+ Rector     | Axis & Allies                                                              |       1
+ Rector     | Battleship                                                                 |       2
+ Rector     | Blokus                                                                     |       1
+ Rector     | Brass Lancashire                                                           |       3
+ Rector     | Carcassonne Big Box 5                                                      |       1
+ Rector     | Castles of Burgundy Card Game                                              |       2
+ Rector     | Codenames: Marvel                                                          |       1
+ Rector     | Combat The Fighting Infantry Game Based on the abc Television Network Show |       1
+ Rector     | Compounded                                                                 |       3
+ Rector     | Concordia                                                                  |       2
+ Rector     | Cowpoker                                                                   |       1
+ Rector     | Cranium                                                                    |       1
+ Rector     | Cyclades                                                                   |       1
+ Rector     | Discoveries: The Journals of Lewis & Clark                                 |       1
+ Rector     | Dresden Files Cooperative Card Game                                        |       1
+ Rector     | Fleet                                                                      |       2
+ Rector     | Ghost Stories                                                              |       1
+ Rector     | Give Me the Brain!                                                         |       2
+ Rector     | Glass Road                                                                 |       2
+ Rector     | Gravwell                                                                   |       1
+ Rector     | Guillotine                                                                 |       1
+ Rector     | Haggis                                                                     |       2
+ Rector     | Harbour                                                                    |       2
+ Rector     | Hive Pocket                                                                |       1
+ Rector     | Hyperborea                                                                 |       3
+ Rector     | Impulse                                                                    |       1
+ Rector     | Innovation                                                                 |       2
+ Rector     | Innovation: Echoes of the Past                                             |       2
+ Rector     | Jaipur                                                                     |       3
+ Rector     | Khet 2.0 Laser Game                                                        |       1
+ Rector     | Killer Bunnies                                                             |       1
+ Rector     | Kingdom Builder                                                            |       3
+ Rector     | King of Tokyo                                                              |       4
+ Rector     | Lewis & Clark                                                              |       3
+ Rector     | Lord of the Fries                                                          |       2
+ Rector     | Love Letter                                                                |       1
+ Rector     | Mahjong                                                                    |       1
+ Rector     | Monopoly: Spider-Man 3                                                     |       1
+ Rector     | Mottainai                                                                  |       3
+ Rector     | Munchkin                                                                   |       1
+ Rector     | Nyet!                                                                      |       2
+ Rector     | Ora Et Labora                                                              |       3
+ Rector     | Orleans                                                                    |       3
+ Rector     | Patchwork                                                                  |       4
+ Rector     | Phase 10 Dice                                                              |       1
+ Rector     | Pictionary                                                                 |       1
+ Rector     | Pictionary Junior                                                          |       1
+ Rector     | Pictureka!                                                                 |       1
+ Rector     | Pictureka! Card Game                                                       |       1
+ Rector     | Pirateer                                                                   |       1
+ Rector     | Pirates Cove                                                               |       1
+ Rector     | Pirates Dice Pirates of the Carribean Dead Man's Chest                     |       1
+ Rector     | Power Grid                                                                 |       2
+ Rector     | Power Grid Card Game                                                       |       2
+ Rector     | Puerto Rico                                                                |       3
+ Rector     | Race for the Galaxy                                                        |       2
+ Rector     | Red7                                                                       |       2
+ Rector     | Risk 40th anniversary                                                      |       1
+ Rector     | Risk Lord of the Rings (1st edition)                                       |       1
+ Rector     | Robot Turtles                                                              |       1
+ Rector     | Scattergories                                                              |       1
+ Rector     | Scoville                                                                   |       1
+ Rector     | Scrabble                                                                   |       1
+ Rector     | Scrabble: Slam                                                             |       1
+ Rector     | Sequence                                                                   |       1
+ Rector     | Settlers of Catan                                                          |       1
+ Rector     | Small World                                                                |       2
+ Rector     | Splendor                                                                   |       5
+ Rector     | Super Munchkin                                                             |       1
+ Rector     | Taboo                                                                      |       1
+ Rector     | Terraforming Mars                                                          |       4
+ Rector     | Thief's Market                                                             |       2
+ Rector     | Ticket to Ride                                                             |       4
+ Rector     | Ticket to Ride Europe                                                      |       3
+ Rector     | Tiny Epic Kingdoms                                                         |       2
+ Rector     | Tiny Epic Kingdoms: Heroes' Call                                           |       2
+ Rector     | Tiny Epic Quest                                                            |       1
+ Rector     | Tiny Epic Western                                                          |       1
+ Rector     | Vampire (Reiner Knizia)                                                    |       1
+ Rector     | Yahtzee                                                                    |       1
+ Rector     | Yokohama                                                                   |       2
+ Rivay      | 51st State Master Set                                                      |       1
+ Rivay      | 51st State (toy vault Ed)                                                  |       1
+ Rivay      | 5 in 1 Classic Game Set                                                    |       1
+ Rivay      | 5-minute Dungeon                                                           |       1
+ Rivay      | 7 Wonders                                                                  |       1
+ Rivay      | 7 Wonders: Babel                                                           |       1
+ Rivay      | 7 Wonders Duel                                                             |       5
+ Rivay      | Abyss                                                                      |       1
+ Rivay      | Aeon's End                                                                 |       1
+ Rivay      | A Feast for Odin                                                           |       1
+ Rivay      | Agents of SMERSH                                                           |       1
+ Rivay      | Agricola                                                                   |       3
+ Rivay      | A La Carte                                                                 |       1
+ Rivay      | Alchemists                                                                 |       1
+ Rivay      | Alhambra                                                                   |       2
+ Rivay      | Alien Frontiers                                                            |       3
+ Rivay      | Amerigo                                                                    |       1
+ Rivay      | Among the Stars                                                            |       1
+ Rivay      | Ancient Terrible Things                                                    |       1
+ Rivay      | Android                                                                    |       2
+ Rivay      | Archipelago                                                                |       1
+ Rivay      | Arena Roma II                                                              |       1
+ Rivay      | Ascension: Dreamscape                                                      |       1
+ Rivay      | Ascension: Realms Unraveled                                                |       1
+ Rivay      | Ascension: Storm of Souls                                                  |       1
+ Rivay      | Ascension X: War of Shadows                                                |       1
+ Rivay      | Asgard                                                                     |       1
+ Rivay      | ASHES Rise of the Phoenixborn                                              |       2
+ Rivay      | At the Gates of Loyang                                                     |       1
+ Rivay      | Azul                                                                       |       3
+ Rivay      | BattleCON: Devastation of Indines                                          |       1
+ Rivay      | Battle for Souls                                                           |       1
+ Rivay      | Belfort                                                                    |       1
+ Rivay      | Bloodborne TCG                                                             |       1
+ Rivay      | Blood Bowl: Team Manager – The Card Game                                   |       2
+ Rivay      | Boss Monster                                                               |       3
+ Rivay      | Briefcase                                                                  |       1
+ Rivay      | Bruges                                                                     |       1
+ Rivay      | B-Sieged                                                                   |       2
+ Rivay      | B-Sieged                                                                   |       2
+ Rivay      | Carnival Zombie                                                            |       1
+ Rivay      | Castles of Burgundy                                                        |       2
+ Rivay      | Caverna                                                                    |       3
+ Rivay      | Caverna: Cave vs. Cave                                                     |       3
+ Rivay      | Cave Troll                                                                 |       1
+ Rivay      | Caylus                                                                     |       3
+ Rivay      | Champions of Midgard                                                       |       1
+ Rivay      | Chaos in the Old World                                                     |       1
+ Rivay      | City of Iron                                                               |       1
+ Rivay      | Clank! A Deck-building Adventure                                           |       2
+ Rivay      | Clank! Sunken Treasures                                                    |       1
+ Rivay      | Claustrophobia                                                             |       1
+ Rivay      | Coal Baron                                                                 |       2
+ Rivay      | Compounded                                                                 |       3
+ Rivay      | Concept                                                                    |       1
+ Rivay      | Constantinopolis                                                           |       1
+ Rivay      | Core Worlds                                                                |       1
+ Rivay      | Cthulu Fluxx                                                               |       1
+ Rivay      | Cytosis: A Cell Biology Board Game                                         |       1
+ Rivay      | Dark, Darker, Darkest                                                      |       1
+ Rivay      | Dark Gothic                                                                |       1
+ Rivay      | Dead of Winter: A Crossroads Game                                          |       2
+ Rivay      | Deck Building: The Deck Building Game                                      |       1
+ Rivay      | Defenders of the Realm                                                     |       1
+ Rivay      | Deus                                                                       |       1
+ Rivay      | Dice City                                                                  |       2
+ Rivay      | Dice Forge                                                                 |       1
+ Rivay      | Dixit Jinx                                                                 |       2
+ Rivay      | Dogs of War                                                                |       1
+ Rivay      | Dominion                                                                   |       1
+ Rivay      | Dragon Brew                                                                |       2
+ Rivay      | Dungeon Petz                                                               |       3
+ Rivay      | Dungeons and Dragons: Conquest of Nerath                                   |       1
+ Rivay      | Eclipse                                                                    |       2
+ Rivay      | Edo                                                                        |       2
+ Rivay      | Elder Sign                                                                 |       1
+ Rivay      | Eldritch Horror                                                            |       1
+ Rivay      | Elysium                                                                    |       1
+ Rivay      | Euphoria: Build a Better Dystopia                                          |       1
+ Rivay      | Evo                                                                        |       1
+ Rivay      | Evolution: Climate                                                         |       1
+ Rivay      | Five Tribes                                                                |       2
+ Rivay      | Flatline                                                                   |       1
+ Rivay      | Flip Ships                                                                 |       3
+ Rivay      | Florenza TCG                                                               |       1
+ Rivay      | Forbidden Desert                                                           |       2
+ Rivay      | Forbidden Island                                                           |       3
+ Rivay      | Forbidden Stars                                                            |       1
+ Rivay      | Forge War                                                                  |       1
+ Rivay      | For Sale                                                                   |       1
+ Rivay      | Fury of Dracula                                                            |       1
+ Rivay      | FUSE                                                                       |       3
+ Rivay      | Gears of War                                                               |       1
+ Rivay      | Geek Out!                                                                  |       1
+ Rivay      | Glass Road                                                                 |       2
+ Rivay      | Glory To Rome                                                              |       1
+ Rivay      | Harry Potter Hogwarts Battle                                               |       1
+ Rivay      | Healthy Heart Hospital                                                     |       1
+ Rivay      | Hordes: High Command                                                       |       1
+ Rivay      | Hyperborea                                                                 |       3
+ Rivay      | Imperial Assault                                                           |       1
+ Rivay      | Imperial Settlers                                                          |       3
+ Rivay      | Infiltration                                                               |       1
+ Rivay      | Innovation                                                                 |       2
+ Rivay      | Innovation: Echoes of the Past                                             |       2
+ Rivay      | Innovation: Figures in the Sand                                            |       1
+ Rivay      | Iron Dragon                                                                |       3
+ Rivay      | KaosBall                                                                   |       1
+ Rivay      | Keyflower                                                                  |       2
+ Rivay      | King of New York                                                           |       2
+ Rivay      | King of Tokyo                                                              |       4
+ Rivay      | Lagoon: Land of Druids                                                     |       1
+ Rivay      | Last Night on Earth                                                        |       1
+ Rivay      | Legendary: a Marvel Deck Building Game                                     |       2
+ Rivay      | Legendary: a Marvel Deck Building Game                                     |       2
+ Rivay      | Legendary: Dark City: A Marvel Deck Building Game                          |       1
+ Rivay      | Legendary Encounters: Aliens                                               |       1
+ Rivay      | Legendary Encounters: Predator                                             |       1
+ Rivay      | Le Havre                                                                   |       1
+ Rivay      | Letters from Whitechapel                                                   |       1
+ Rivay      | Libertalia                                                                 |       1
+ Rivay      | Lord of the Rings Deck Building Game                                       |       1
+ Rivay      | Lords of Waterdeep                                                         |       2
+ Rivay      | Lost in R'lyeh                                                             |       1
+ Rivay      | Lovecraft Letter                                                           |       2
+ Rivay      | Love Letter: Batman                                                        |       3
+ Rivay      | Love Letter: Hobbit                                                        |       1
+ Rivay      | Love Letter: Kania Factory Ltd Ed                                          |       1
+ Rivay      | Lucidity: Six-Sided Nightmares                                             |       2
+ Rivay      | Lucidity: Six-Sided Nightmares                                             |       2
+ Rivay      | Mage Knight                                                                |       2
+ Rivay      | Majesty: For the Realm                                                     |       1
+ Rivay      | Marrying Mr. Darcy                                                         |       1
+ Rivay      | Mercante                                                                   |       1
+ Rivay      | Merkator                                                                   |       1
+ Rivay      | Middle-Earth Quest                                                         |       1
+ Rivay      | Monopoly Gamer                                                             |       1
+ Rivay      | Mottainai                                                                  |       3
+ Rivay      | Munchkin Marvel                                                            |       1
+ Rivay      | Mythotopia                                                                 |       2
+ Rivay      | Nations                                                                    |       1
+ Rivay      | Nations: The Dice Game                                                     |       2
+ Rivay      | Neuroshima: Convoy                                                         |       1
+ Rivay      | Oddville                                                                   |       2
+ Rivay      | Omen: A Reign of War                                                       |       1
+ Rivay      | One Deck Dungeon                                                           |       1
+ Rivay      | Ora Et Labora                                                              |       3
+ Rivay      | Orleans                                                                    |       3
+ Rivay      | Pandemic                                                                   |       3
+ Rivay      | Pandemic: On the Brink                                                     |       1
+ Rivay      | Pandemic: Reign of Cthulu                                                  |       2
+ Rivay      | Pandemic: The Cure                                                         |       4
+ Rivay      | Panic Station                                                              |       1
+ Rivay      | Paperback                                                                  |       3
+ Rivay      | Patchwork                                                                  |       4
+ Rivay      | Pillars of Earth                                                           |       2
+ Rivay      | Pixel Lincon                                                               |       1
+ Rivay      | Plague Inc                                                                 |       1
+ Rivay      | Pokemon: Master Trainer                                                    |       1
+ Rivay      | Posthuman                                                                  |       1
+ Rivay      | Praetor                                                                    |       1
+ Rivay      | Progress: Evolution of Technology                                          |       1
+ Rivay      | Puzzle Strike                                                              |       1
+ Rivay      | Puzzle Strike:Shadows                                                      |       1
+ Rivay      | Quarantine                                                                 |       1
+ Rivay      | Quests of Valeria                                                          |       2
+ Rivay      | Race for the Galaxy                                                        |       2
+ Rivay      | Relic                                                                      |       1
+ Rivay      | Ristorante Italia                                                          |       1
+ Rivay      | RNtertainment                                                              |       1
+ Rivay      | Robinson Crusoe: Adventures on the Cursed Island                           |       1
+ Rivay      | Roll for it!                                                               |       2
+ Rivay      | Roll for the Galaxy                                                        |       3
+ Rivay      | Roll Player                                                                |       1
+ Rivay      | Runewars                                                                   |       1
+ Rivay      | Run, Fight or Die                                                          |       1
+ Rivay      | Sagrada                                                                    |       5
+ Rivay      | Santorini                                                                  |       2
+ Rivay      | Scythe                                                                     |       1
+ Rivay      | Seasons                                                                    |       2
+ Rivay      | Sentient                                                                   |       1
+ Rivay      | Shadowrun: Crossfire                                                       |       1
+ Rivay      | Shadows Over Camelot                                                       |       1
+ Rivay      | Shinobi Clans                                                              |       1
+ Rivay      | Shogun                                                                     |       1
+ Rivay      | Smash Up                                                                   |       1
+ Rivay      | Space Hulk: Death Angel                                                    |       2
+ Rivay      | Spirit Island + Branch and Claw                                            |       1
+ Rivay      | Splendor                                                                   |       5
+ Rivay      | Spyrium                                                                    |       1
+ Rivay      | Star Realms                                                                |       1
+ Rivay      | Star Wars: Imperial Assault                                                |       1
+ Rivay      | Suburbia                                                                   |       2
+ Rivay      | Sushi Go!                                                                  |       2
+ Rivay      | Takenoko                                                                   |       2
+ Rivay      | Talisman 4th ed                                                            |       1
+ Rivay      | Tash-Kalar                                                                 |       1
+ Rivay      | Terraforming Mars                                                          |       4
+ Rivay      | Terra Mystica                                                              |       2
+ Rivay      | Terror in Meeple City                                                      |       2
+ Rivay      | The Battle of Five Armies                                                  |       1
+ Rivay      | The Big Book of Madness                                                    |       1
+ Rivay      | The Colonists                                                              |       2
+ Rivay      | The Hobbit Deck building game                                              |       1
+ Rivay      | The Palaces of Carrara                                                     |       1
+ Rivay      | The Red Dragon Inn                                                         |       1
+ Rivay      | The Red Dragon Inn 3                                                       |       1
+ Rivay      | Theseus: Dark Orbit                                                        |       1
+ Rivay      | Thief's Market                                                             |       2
+ Rivay      | Thunderstone Advance: Towers of Ruin                                       |       1
+ Rivay      | Ticket to Ride                                                             |       4
+ Rivay      | Timeline: Discoveries                                                      |       1
+ Rivay      | Timeline: Diversity                                                        |       1
+ Rivay      | Timeline: Historical Events                                                |       1
+ Rivay      | Timeline: Inventions                                                       |       4
+ Rivay      | Timeline: Music and Cinema                                                 |       2
+ Rivay      | T.I.M.E Stories                                                            |       3
+ Rivay      | Tokaido                                                                    |       3
+ Rivay      | Tomb: Cryptmaster                                                          |       1
+ Rivay      | Trains                                                                     |       1
+ Rivay      | Trajan                                                                     |       1
+ Rivay      | Trickerion: Legends of Illusion                                            |       2
+ Rivay      | Tzolk'in: The Mayan Calendar                                               |       2
+ Rivay      | Unearth                                                                    |       2
+ Rivay      | Unfair                                                                     |       1
+ Rivay      | Valeria: Card Kingdoms                                                     |       1
+ Rivay      | Viceroy                                                                    |       2
+ Rivay      | Vinhos                                                                     |       1
+ Rivay      | Wallenstein                                                                |       1
+ Rivay      | War of the Ring                                                            |       1
+ Rivay      | Xenoshyft: Onslaught                                                       |       1
+ Rivay      | Yashima: Legend of the Kami Masters                                        |       1
+ Rivay      | Yggdrasil                                                                  |       1
+ Rivay      | Zombicide: Black Plague                                                    |       1
+ Rivay      | Zombie State                                                               |       1
+ Rivay      | Zpocalypse                                                                 |       1
+ Walker     | 13 Days                                                                    |       1
+ Walker     | 13 Minutes: The Cuban Missile Crisis                                       |       2
+ Walker     | 1989 Dawn of Freedom                                                       |       1
+ Walker     | 6 Nimmt                                                                    |       1
+ Walker     | 7 Wonders Duel                                                             |       5
+ Walker     | 7 Wonders Duel Pantheon                                                    |       1
+ Walker     | Above and Below                                                            |       2
+ Walker     | A Fake artist Goes to New York                                             |       1
+ Walker     | Alien Frontiers                                                            |       3
+ Walker     | Avenue                                                                     |       2
+ Walker     | Azul                                                                       |       3
+ Walker     | Babel                                                                      |       1
+ Walker     | Bang! The Dice Game                                                        |       1
+ Walker     | Bärenpark                                                                  |       3
+ Walker     | Battle for Hill 218                                                        |       1
+ Walker     | Battle Sheep                                                               |       1
+ Walker     | BEARS!                                                                     |       1
+ Walker     | Black Orchestra                                                            |       1
+ Walker     | Bring Out Yer Dead                                                         |       2
+ Walker     | Bullfrogs                                                                  |       2
+ Walker     | Caesar & Cleopatra                                                         |       1
+ Walker     | Camel Up                                                                   |       1
+ Walker     | Can’t Stop                                                                 |       1
+ Walker     | Can’t Stop Express                                                         |       1
+ Walker     | Carcassonne                                                                |       1
+ Walker     | Carcassonne The Castle                                                     |       2
+ Walker     | Cardline: Globetrotter                                                     |       2
+ Walker     | Castles of Burgundy                                                        |       2
+ Walker     | Castles of Burgundy Card Game                                              |       2
+ Walker     | Castles of Burgundy Dice Game                                              |       1
+ Walker     | Cat Tower                                                                  |       1
+ Walker     | Caverna: Cave vs. Cave                                                     |       3
+ Walker     | Circus Flohcati                                                            |       1
+ Walker     | Citadels                                                                   |       3
+ Walker     | City of Spies: Estoril 1942                                                |       1
+ Walker     | Clank! A Deck-building Adventure                                           |       2
+ Walker     | Click Clack Lumberjack                                                     |       1
+ Walker     | Codenames Duet                                                             |       2
+ Walker     | Coloretto                                                                  |       1
+ Walker     | Coup                                                                       |       2
+ Walker     | Crab Stack                                                                 |       1
+ Walker     | Cthulhu Realms                                                             |       1
+ Walker     | Days of Ire: Budapest 1956                                                 |       1
+ Walker     | Deep Sea                                                                   |       1
+ Walker     | Dice Heist                                                                 |       1
+ Walker     | Dice Stars                                                                 |       1
+ Walker     | Dixit                                                                      |       1
+ Walker     | Dr. Eureka                                                                 |       1
+ Walker     | Eight Minute Empire Legends                                                |       1
+ Walker     | Escape from the Aliens in Outer Space                                      |       1
+ Walker     | Evolution the Beginning                                                    |       1
+ Walker     | Fauna                                                                      |       1
+ Walker     | Feed the Kitty                                                             |       1
+ Walker     | Felicity: The Cat in the Sack                                              |       2
+ Walker     | Five Tribes                                                                |       2
+ Walker     | Fleet                                                                      |       2
+ Walker     | Flick’em Up Dead of Winter                                                 |       1
+ Walker     | Flip Ships                                                                 |       3
+ Walker     | Forbidden Island                                                           |       3
+ Walker     | Garden Dice                                                                |       1
+ Walker     | Ghosts Love Candy                                                          |       1
+ Walker     | Great Heartland Hauling Co.                                                |       1
+ Walker     | Gubs                                                                       |       1
+ Walker     | Hanabi                                                                     |       2
+ Walker     | Harbour                                                                    |       2
+ Walker     | Hardback                                                                   |       1
+ Walker     | Harvest Dice                                                               |       1
+ Walker     | Herbaceous                                                                 |       1
+ Walker     | Holmes: Sherlock & Mycroft                                                 |       1
+ Walker     | Ice Cool                                                                   |       2
+ Walker     | Imperial Settlers                                                          |       3
+ Walker     | Inbetween                                                                  |       1
+ Walker     | Isla Dorada                                                                |       1
+ Walker     | Jaipur                                                                     |       3
+ Walker     | Junk Art                                                                   |       2
+ Walker     | Junk In My Trunk                                                           |       1
+ Walker     | Kingdomino -Giant Version                                                  |       1
+ Walker     | King of Tokyo                                                              |       4
+ Walker     | Letter Tycoon                                                              |       1
+ Walker     | Limes                                                                      |       1
+ Walker     | London Dread                                                               |       1
+ Walker     | Longhorn                                                                   |       1
+ Walker     | Lord of the Rings Confrontation                                            |       3
+ Walker     | Lord of the Rings Confrontation                                            |       3
+ Walker     | Lord of the Rings Confrontation                                            |       3
+ Walker     | Lost Cities                                                                |       1
+ Walker     | Lost Expedition                                                            |       1
+ Walker     | Lovecraft Letter                                                           |       2
+ Walker     | Love Letter: Batman                                                        |       3
+ Walker     | Manhattan Project                                                          |       1
+ Walker     | Marrakech                                                                  |       1
+ Walker     | Martians!!!                                                                |       1
+ Walker     | Medici Card Game                                                           |       1
+ Walker     | Mint Works                                                                 |       1
+ Walker     | Mr Jack Pocket                                                             |       1
+ Walker     | Murder at Blood Mansion                                                    |       1
+ Walker     | Mystery Rummy Jack the Ripper                                              |       1
+ Walker     | Niya                                                                       |       1
+ Walker     | Not Alone                                                                  |       1
+ Walker     | Odin’s Ravens 2nd Edition                                                  |       1
+ Walker     | Pandemic Iberia                                                            |       2
+ Walker     | Pandemic: Reign of Cthulu                                                  |       2
+ Walker     | Pandemic: The Cure                                                         |       4
+ Walker     | Parade                                                                     |       1
+ Walker     | Pastiche                                                                   |       1
+ Walker     | Pecking Order                                                              |       2
+ Walker     | Pentago                                                                    |       1
+ Walker     | Perudo /Liars Dice                                                         |       1
+ Walker     | Pillars of Earth                                                           |       2
+ Walker     | Pit                                                                        |       2
+ Walker     | Pluckin’ Pairs                                                             |       1
+ Walker     | Potion Explosion                                                           |       2
+ Walker     | Pyramid Poker                                                              |       1
+ Walker     | Quests of Valeria                                                          |       2
+ Walker     | Qwirkle                                                                    |       2
+ Walker     | Raiders of the North Sea                                                   |       1
+ Walker     | Raptor                                                                     |       2
+ Walker     | Rat-A-Tat Cat                                                              |       1
+ Walker     | Red7                                                                       |       2
+ Walker     | Rising 5: Runes of Asteros                                                 |       1
+ Walker     | Roll For It! Purple Edition                                                |       1
+ Walker     | Rolling America                                                            |       1
+ Walker     | Rumble in the House                                                        |       1
+ Walker     | Sagrada                                                                    |       5
+ Walker     | San Juan                                                                   |       1
+ Walker     | Santorini                                                                  |       2
+ Walker     | Scotland Yard                                                              |       1
+ Walker     | Seven Dragons                                                              |       1
+ Walker     | Sheriff of Nottingham                                                      |       3
+ Walker     | Sky Tango                                                                  |       1
+ Walker     | Sleeping Queens                                                            |       1
+ Walker     | Sleuth                                                                     |       1
+ Walker     | Snake Oil                                                                  |       1
+ Walker     | Space Hulk: Death Angel                                                    |       2
+ Walker     | Spaceteam                                                                  |       1
+ Walker     | Spires                                                                     |       1
+ Walker     | Starship Catan                                                             |       1
+ Walker     | Star Trek Panic                                                            |       1
+ Walker     | String Railway                                                             |       1
+ Walker     | Sunset Over Water                                                          |       1
+ Walker     | Super Motherload                                                           |       1
+ Walker     | Tapple                                                                     |       1
+ Walker     | The Bloody Inn                                                             |       1
+ Walker     | The Duke                                                                   |       2
+ Walker     | The Flow of History                                                        |       1
+ Walker     | The Fox in the Forest                                                      |       1
+ Walker     | The Grizzled                                                               |       2
+ Walker     | The Island Of El Dorado                                                    |       1
+ Walker     | The Resistance                                                             |       2
+ Walker     | The Rose King                                                              |       1
+ Walker     | Thunder & Lightning                                                        |       1
+ Walker     | Tides of Madness                                                           |       1
+ Walker     | Tides of Time                                                              |       1
+ Walker     | Timeline: American History                                                 |       1
+ Walker     | Timeline: Inventions                                                       |       4
+ Walker     | Tiny Epic Galaxies                                                         |       2
+ Walker     | Trans Europa                                                               |       1
+ Walker     | Travel Blokus                                                              |       1
+ Walker     | Valley of the Kings                                                        |       1
+ Walker     | Valley of the Kings Afterlife                                              |       1
+ Walker     | VivaJava: The Coffee Game: The Dice Game                                   |       2
+ Walker     | Watson & Holmes                                                            |       1
+ Walker     | Welcome to the Dungeon                                                     |       2
+ Walker     | Welcome to the Dungeon                                                     |       2
+ Walker     | Whitehall Mystery                                                          |       1
+ Walker     | Word on the Street                                                         |       2
+ Walker     | World’s Fair 1893                                                          |       1
+ Walker     | Wurfel Bohnanza                                                            |       1
+ Watson     | Starving Artists                                                           |       2
+ Watson     | Starving Artists                                                           |       2
+ Worzalla   | Epic Spell Wars of the Battle Wizards: Duel at Mt. Skullzfyre              |       1
+ Worzalla   | Escape: Zombie City                                                        |       1
+ Worzalla   | Firefly: The Game                                                          |       1
+ Worzalla   | Mysterium                                                                  |       1
+ Worzalla   | Path of Light and Shadow                                                   |       1
+ Worzalla   | Queendomino                                                                |       2
+ Worzalla   | Sushi Go Party!                                                            |       1
+(1077 rows)
+

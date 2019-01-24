@@ -90,11 +90,6 @@ class CollectionListView(LoginRequiredMixin, ListView):
 			queryset = Collection.objects.all().select_related('Boardgame','Person')
 		return queryset
 
-# 	def get_context_data(self, **kwargs):
-# 	    context = super(CollectionListView,self).get_context_data(**kwargs)
-# 	    context['collectioncheckout'] = Checkout.objects.filter(Q(Checkout__CheckedOutTime__isnull=False) & Q(Checkout__CheckedInTime__isnull=True))
-# 	    return context
-
 class CollectionDetailView(LoginRequiredMixin, UpdateView):
 	form_class = CollectionCreateForm
 	queryset = Collection.objects.all().select_related('Boardgame','Person')
@@ -133,3 +128,8 @@ class CheckoutCreateView(LoginRequiredMixin, CreateView):
 	form_class = CheckoutCreateForm
 	template_name = 'collections/checkout_form.html'
 	success_url = '/checkout'
+
+	def formfield_for_foreignkey(self, db_field, request, **kwargs):
+		if db_field.name == "BoardgameFromCollection":
+			kwargs["queryset"] = Collection.objects.filter(id==28)
+		return super().formfield_for_foreignkey(db_field, request, **kwargs)

@@ -76,11 +76,9 @@ WSGI_APPLICATION = 'GameLib.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ouvnaciy',
-        'HOST' : 'nutty-custard-apple.db.elephantsql.com',
-        'USER' : 'ouvnaciy',
-        'PASSWORD' : '7Zs2dJTdfUAuUBqAh-_H8QUMOsqR6m3o',
-        'PORT' : '5432',
+        'OPTIONS': {
+            'read_default_file': '/home/epunman/dbcon/gwc.cnf',
+        },
     }
 }
 

@@ -4,30 +4,31 @@
 
 {% block content %}
 <h3>Collection List&nbsp&nbsp&nbsp&nbsp<small><a href="/collectionadd">Add</a></small></h3>
+<p>Total:{{ object_list.count }} </p>
 
 {% if object_list %}
-    <table id="collection">
+    <table id="collection" border="1" cellpadding="2">
         {% for obj in object_list %}
             <tr>
-                <td><a href="/collectiondetail/{{ obj.pk }}">{{ obj.Boardgame.Name }}</a></td>
-                <td>{{ obj.Person.LastName }},{{ obj.Person.FirstName }}</td>
-                <td><small>{% if obj.AvailableAtEvent == True %}Bringing {% else %}&nbsp{% endif %}</small></td>
+                <td style="padding: 0px 5px 0px 5px;"><small><a href="/collectiondetail/{{ obj.pk }}">{{ obj.Boardgame.Name }}</a></small></td>
+                <td style="padding: 0px 5px 0px 5px;"><small>{{ obj.Person.LastName }},{{ obj.Person.FirstName }}</small></td>
+                <!--<td><small>{% if obj.AvailableAtEvent == True %}Bringing {% else %}&nbsp{% endif %}</small></td>-->
                 {% if obj.Boardgame.BGGRef|length > 0 %}
-                    <td><a href="{{ obj.Boardgame.BGGRef }}" target="blank">BGG</a></td>
+                    <td style="padding: 0px 5px 0px 5px;"><small><a href="{{ obj.Boardgame.BGGRef }}" target="blank">BGG</a></small></td>
                 {% else %}
-                    <td>&nbsp</td>
+                    <td style="padding: 0px 5px 0px 5px;">&nbsp</td>
                 {% endif %}
                 {% if obj.Shelved == True %}
                     {% for co in obj.checkout_set.all %}
                         {% if not co.CheckedInTime %}
-                            <td bgcolor = #FFFF00><a href="/checkoutdetail/{{ co.pk }}">Check In</a></td>
-                            <td>{{ co.CheckedOutTime }}</td>
-                            <td>{{ co.Attendee }} </td>
+                            <td bgcolor = #FFFF00 style="padding: 0px 5px 0px 5px;"><small><a href="/checkoutdetail/{{ co.pk }}">Check In</a></small></td>
+                            <td style="padding: 0px 5px 0px 5px;"><small>{{ co.CheckedOutTime }}</small></td>
+                            <td style="padding: 0px 5px 0px 5px;"><small>{{ co.Attendee }} </small></td>
                         {% else %}
-                            <td><a href="/checkoutadd">Checkout</a></td>
+                            <td style="padding: 0px 5px 0px 5px;"><small><a href="/checkoutadd">Checkout</a></small></td>
                         {% endif %}
                     {% empty %}
-                        <td><a href="/checkoutadd">Checkout</a></td>
+                        <td style="padding: 0px 5px 0px 5px;"><small><a href="/checkoutadd">Checkout</a></small></td>
                     {% endfor %}
                 {% endif %}
             </tr>

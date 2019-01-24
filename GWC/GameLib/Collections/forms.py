@@ -1,6 +1,7 @@
 from django import forms
 
 from .models import Person, Boardgame, Collection, Checkout
+from django.contrib.auth.models import User
 
 class PersonCreateForm(forms.ModelForm):
 	class Meta:

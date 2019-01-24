@@ -26,8 +26,6 @@ SECRET_KEY = '80+y5ipso30$%t-*yq9@vg7vcu^m#pmb5ut8r%1nc!^^x7e$ga'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '9ec02c51.ngrok.io',
-    '127.0.0.1',
     'epunman.pythonanywhere.com',
     'www.meeplestock.site',
 ]
@@ -86,10 +84,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ouvnaciy',
-        'HOST' : 'nutty-custard-apple.db.elephantsql.com',
-        'USER' : 'ouvnaciy',
-        'PASSWORD' : '7Zs2dJTdfUAuUBqAh-_H8QUMOsqR6m3o',
-        'PORT' : '5432',
+        'HOST' : 'epunman-791.postgres.pythonanywhere-services.com',
+        'USER' : 'collectionuser',
+        'PASSWORD' : 'Cx%gvW7N!!pMs4yz',
+        'PORT' : '10791',
     }
 }
 
@@ -129,5 +127,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 STATIC_URL = '/static/'
